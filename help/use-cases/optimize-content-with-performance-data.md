@@ -256,7 +256,7 @@ Publish all confirmed changes and share the updated URLs.
 | Recurso | Qué va a encontrar |
 | --- | --- |
 | [Documentación del servidor MCP de CJA](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuración y referencia de la herramienta del MCP de CJA |
-| [Documentación de AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guía de uso y configuración del MCP de contenido de AEM |
+| [Documentación de AEM Content MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guía de uso y configuración del MCP de contenido de AEM |
 | [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
 | [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Disponibilidad y herramientas del servidor MCP de contenido de AEM |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |

@@ -275,4 +275,4 @@ Save this analysis as a Workspace project for executive reporting.
 | [Documentación del servidor MCP de CJA](https://developer.adobe.com/analytics-mcp/docs/cja/) | Guía completa de configuración y referencia de herramientas |
 | [Guías de uso de CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guías de uso detalladas |
 | [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
-| [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentación completa de la aplicación de CJA |
+| [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing) | Documentación completa de la aplicación de CJA |
