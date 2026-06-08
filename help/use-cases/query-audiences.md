@@ -224,7 +224,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configuración y referencia de la herramienta del servidor MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configuración y referencia de la herramienta del servidor MCP |
 | [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Disponibilidad y metadatos del servidor MCP |
 | [Documentación de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) | Documentación completa de la aplicación de Real-Time CDP |
 | [Documentación de destinos de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home) | Referencia de destinos completos |
