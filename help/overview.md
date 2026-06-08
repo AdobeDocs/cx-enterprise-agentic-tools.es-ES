@@ -14,7 +14,7 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491245/?captions=spa&learn=on&enablevpops)
 
 Asigne a su IA una línea directa a **Adobe CX Enterprise** datos, flujos de trabajo y automatización. Consulte campañas, active audiencias y administre recorridos en **lenguaje sencillo**, desde cualquier cliente de IA o herramienta de desarrollo compatible.
 
