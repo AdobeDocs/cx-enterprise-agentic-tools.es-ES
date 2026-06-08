@@ -55,7 +55,7 @@ CARDS
   {title = Manage AEM environments with Cloud Manager}
   {description = Check environment health, review pipeline runs, and manage deployments from your AI client. Uses the AEM Cloud Manager MCP Server.}
   {cta = Start walkthrough}
-  {image = https://video.tv.adobe.com/v/3480340?format=jpeg}
+  {image = https://video.tv.adobe.com/v/3480345?captions=spa&format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -202,7 +202,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/aem-cloud-manager-mcp.md" title="Administración de entornos de AEM con Cloud Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480340?format=jpeg" alt="Administración de entornos de AEM con Cloud Manager"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480345?captions=spa&format=jpeg" alt="Administración de entornos de AEM con Cloud Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
