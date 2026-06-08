@@ -2,7 +2,7 @@
 title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -88,6 +88,7 @@ From WKND Dev environment, find all ski related content.
 
 +++
 
+
 ## Paso 2: Revisar una página específica
 
 Una vez que haya localizado contenido relevante, pídale a su cliente de IA que le muestre una página específica. Puede hacer referencia a las páginas por nombre o ruta. El servidor MCP resuelve la referencia y devuelve la estructura de contenido.
@@ -102,6 +103,7 @@ Show me the US English Home Page.
 
 +++
 
+
 ## Paso 3: Mejorar el contenido
 
 Con el contenido de la página a la vista, pida a su cliente de IA que le sugiera o aplique mejoras. La IA puede proponer cambios de copia basados en lo que dice la página actualmente y pedir confirmación antes de escribir nada.
@@ -115,6 +117,7 @@ Improve the Hero CTAs.
 ![Cliente de IA que propone una copia de Hero CTA mejorada con un mensaje de confirmación antes de aplicar los cambios](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -133,6 +136,7 @@ Publish the changes and share the URL.
 ![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
+
 
 ## Lo que ha conseguido
 
@@ -253,6 +257,7 @@ Promote the May Updates launch to production.
 ```
 
 +++
+
 
 ## Más información
 

@@ -2,7 +2,7 @@
 title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP Gateway para supervisar el estado de activación de audiencias, comprobar el estado de destino y los problemas de superficie antes de que afecten a sus campañas.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## Paso 2: Identificar los segmentos más valiosos
 
 Con el panorama de la audiencia a la vista, pregunte qué segmentos son más grandes y qué los hace estratégicamente valiosos.
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![Cliente de IA que identifica las audiencias más grandes y explica qué las hace valiosas](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## Paso 3: Revisar la activación y los destinos
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## Paso 4: Obtener recomendaciones estratégicas
 
 Las herramientas de RTCDP de CX Enterprise MCP Gateway son de solo lectura: muestran el estado de activación, el estado de destino y los datos de flujo de datos, pero no modifican la configuración. Una vez identificado un problema, la corrección se produce en la aplicación.
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![Cliente de IA que proporciona recomendaciones de estrategia de audiencia priorizadas](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -219,6 +223,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 ```
 
 +++
+
 
 ## Más información
 

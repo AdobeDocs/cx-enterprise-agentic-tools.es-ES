@@ -2,7 +2,7 @@
 title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## Paso 2: Revisar las ejecuciones de canalización
 
 Revise el historial de canalizaciones reciente para comprender los patrones de implementación y detectar errores antes de que bloqueen su próxima versión.
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## Paso 3: Déclencheur de una canalización
 
 Inicie una canalización que se ejecute directamente desde su cliente de IA. El servidor confirma el entorno de destino y solicita la aprobación antes de iniciarse.
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![Cliente de IA que muestra confirmación de déclencheur de canalización e IU de Cloud Manager que refleja la canalización en ejecución](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![Cliente de IA que muestra el estado de la ejecución de canalización desencadenada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## Lo que ha conseguido
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## Más información
 

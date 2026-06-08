@@ -2,7 +2,7 @@
 title: Perspectivas de campañas de superficie sin crear informes
 description: Utilice CX Enterprise MCP Gateway para hacer preguntas de rendimiento de Customer Journey Analytics en lenguaje sencillo y obtener respuestas sin tener que navegar por Report Builder.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## Paso 2: Extraer datos de rendimiento de la campaña
 
 Con una vista de datos identificada, solicite el rendimiento de la campaña por ingresos y tasa de conversión. La API resuelve los nombres de métricas y dimensiones de la vista de datos sin requerir ID técnicos.
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![Cliente de IA que muestra las principales campañas por ingresos y tasa de conversión desde la vista de datos omnicanal - de múltiples industrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## Paso 4: Profundizar en un tipo de campaña específico
 
 Haga un seguimiento de un resultado específico solicitando un desglose de nivel de segmento. Esto revela qué tipos de clientes están impulsando el rendimiento dentro de un tipo de campaña.
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## Paso 5: Tome medidas sobre lo que encontró
 
 Pida recomendaciones priorizadas basadas en todo lo que ha aparecido en la sesión. Solicitar estimaciones del valor comercial le ayuda a decidir dónde actuar primero.
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![Cliente de IA que recomienda acciones priorizadas con valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## Más información
 
