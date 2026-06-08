@@ -2,10 +2,10 @@
 title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 2%
+source-wordcount: '2110'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-19 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491325/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Los servidores MCP empresariales de Adobe CX proporcionan a cualquier cliente de IA compatible acceso directo y controlado a los datos y flujos de trabajo de Adobe. Conéctese una vez y podrá consultar el rendimiento de la campaña, activar audiencias, revisar recorridos, administrar contenido y mucho más, todo en un lenguaje sencillo, sin salir de su entorno de IA. Debido a que los servidores MCP se encuentran entre su cliente de IA y los sistemas subyacentes de Adobe, obtiene flexibilidad en lenguaje natural mientras los controles de acceso y la gobernanza de datos de su organización permanecen vigentes.
 
@@ -38,7 +38,7 @@ Las herramientas de cada aplicación están disponibles en función de las licen
 | --- | --- |
 | Adobe Journey Optimizer | [Revisar recorridos, campañas y configuraciones de canal](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Customer Journey Analytics | [Informes de consultas, descubrir vistas de datos, crear espacios de trabajo](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [Comprobar destinos, estado de activación y estado del flujo de datos](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (beta cerrada) |
+| Real-Time CDP | [Comprobar destinos, estado de activación y estado del flujo de datos](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (beta cerrada) |
 
 >[!TAB Conectar]
 
@@ -77,21 +77,21 @@ CARDS
   {target = _blank}
   {image = ../assets/mcp-analytics-card.png}
 
-* https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
   {title = AEM Content}
   {description = Tools for managing pages, content fragments, assets, and launches in Adobe Experience Manager as a Cloud Service using natural language.}
   {cta = View documentation}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
   {title = AEM Content (Read-Only)}
   {description = Tools for discovering and querying pages, content fragments, and launches in AEM as a Cloud Service. No write access.}
   {cta = View documentation}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager
   {title = AEM Cloud Manager}
   {description = Tools for managing Cloud Manager programs, environments, pipelines, and repositories from your IDE using natural language.}
   {cta = View documentation}
@@ -99,16 +99,113 @@ CARDS
   {image = ../assets/mcp-aem-card.png}
 
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Analytics">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://developer.adobe.com/analytics-mcp/docs/aa/" title="Adobe Analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-analytics-card.png" alt="Adobe Analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://developer.adobe.com/analytics-mcp/docs/aa/" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
+                    </p>
+                    <p class="is-size-6">Herramientas para la detección de grupos de informes, análisis de dimensiones y métricas, creación de segmentos y creación de espacios de trabajo en Adobe Analytics.</p>
+                </div>
+                <a href="https://developer.adobe.com/analytics-mcp/docs/aa/" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ver documentación</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="Contenido de AEM" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="Contenido de AEM"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="Contenido de AEM">Contenido de AEM</a>
+                    </p>
+                    <p class="is-size-6">Herramientas para administrar páginas, fragmentos de contenido, recursos y lanzamientos en Adobe Experience Manager as a Cloud Service mediante lenguaje natural.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ver documentación</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content (Read-Only)">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="Contenido de AEM (solo lectura)" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="Contenido de AEM (solo lectura)"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="Contenido de AEM (solo lectura)">Contenido de AEM (solo lectura)</a>
+                    </p>
+                    <p class="is-size-6">Herramientas para detectar y consultar páginas, fragmentos de contenido e inicios en AEM as a Cloud Service. Sin acceso de escritura.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ver documentación</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Cloud Manager">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager" title="AEM Cloud Manager" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM Cloud Manager"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager" target="_blank" rel="referrer" title="AEM Cloud Manager">AEM Cloud Manager</a>
+                    </p>
+                    <p class="is-size-6">Herramientas para administrar programas, entornos, canalizaciones y repositorios de Cloud Manager desde su IDE utilizando lenguaje natural.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ver documentación</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ### Extremos del servidor MCP
 
 | Servidor | Punto de conexión | Herramientas |
 | --- | --- | --- |
-| [Puerta de enlace MCP de CX Enterprise](#cx-enterprise-mcp-gateway) | `https://cx-enterprise.adobe.io/mcp` | · [Herramientas Adobe Journey Optimizer](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [Herramientas Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [Herramientas Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [Puerta de enlace MCP de CX Enterprise](#cx-enterprise-mcp-gateway) | `https://cx-enterprise.adobe.io/mcp` | · [Herramientas Adobe Journey Optimizer](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [Herramientas Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [Herramientas Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [Contenido de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [Contenido de AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Ver herramientas](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 
 ## Conexión a su cliente de IA
 
@@ -326,3 +423,146 @@ CARDS
   {description = Use the CX Enterprise MCP Gateway for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
   {cta = Start walkthrough}
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="Analizar el rendimiento de la campaña"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="Analizar el rendimiento de la campaña">Analizar el rendimiento de la campaña</a>
+                    </p>
+                    <p class="is-size-6">Utilice CX Enterprise MCP Gateway para mostrar métricas de Customer Journey Analytics y datos de cualquier cliente de IA.</p>
+                </div>
+                <a href="../use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/query-audiences.md" title="Consultar audiencias" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="Consultar audiencias"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" title="Consultar audiencias">Consultar audiencias</a>
+                    </p>
+                    <p class="is-size-6">Utilice CX Enterprise MCP Gateway para consultar los datos de destino y audiencia de Real-Time CDP utilizando indicaciones en lenguaje sencillo.</p>
+                </div>
+                <a href="../use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/manage-ajo-journeys.md" title="Revisar AJO recorrido" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="Revisar AJO recorrido"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="Revisar AJO recorrido">Revisar recorridos de AJO</a>
+                    </p>
+                    <p class="is-size-6">Utilice CX Enterprise MCP Gateway para acceder a los recorridos de AJO, el estado de la campaña y las condiciones de recorrido desde su cliente de IA.</p>
+                </div>
+                <a href="../use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="Administración de contenido de AEM con IA"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="Administración de contenido de AEM con IA">Administrar contenido de AEM con IA</a>
+                    </p>
+                    <p class="is-size-6">Descubra, actualice y publique páginas y fragmentos de contenido en AEM con lenguaje natural.</p>
+                </div>
+                <a href="../use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/optimize-content-with-performance-data.md" title="Optimización del contenido en función de los datos de rendimiento" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="Optimización del contenido en función de los datos de rendimiento"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="Optimización del contenido en función de los datos de rendimiento">Optimizar contenido basado en datos de rendimiento</a>
+                    </p>
+                    <p class="is-size-6">Combine CX Enterprise MCP Gateway y AEM Content MCP Server para encontrar contenido de bajo rendimiento y actualizarlo en una sesión.</p>
+                </div>
+                <a href="../use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/cross-channel-campaign-review.md" title="Ejecutar una revisión de campaña en canales múltiples" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="Ejecutar una revisión de campaña en canales múltiples"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="Ejecutar una revisión de campaña en canales múltiples">Ejecutar una revisión de campaña en canales múltiples</a>
+                    </p>
+                    <p class="is-size-6">Utilice CX Enterprise MCP Gateway para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en una sesión de IA.</p>
+                </div>
+                <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+

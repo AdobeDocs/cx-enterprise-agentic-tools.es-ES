@@ -3,7 +3,7 @@ user-guide-title: Herramientas de agencia empresarial de Adobe CX
 breadcrumb-title: Herramientas de agente
 user-guide-description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 index: false
-source-git-commit: ece4c03765e73a97d0b0c343b14f7675f6349e7a
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
    + [Aptitudes de agente](/help/tools/agent-skills.md)
    + [API para generadores](/help/tools/apis.md)
 + Herramientas agénticas en acción {#in-action}
-   + [Información general](/help/agentic-tools-in-action.md)
+   + [Información general](/help/use-cases/overview.md)
    + [Perspectivas de campañas de superficie sin crear informes](/help/use-cases/analyze-campaign-performance.md)
    + [Comprenda sus audiencias y dónde se activan](/help/use-cases/query-audiences.md)
    + [Detecte los problemas de recorrido antes de que afecten a los clientes](/help/use-cases/manage-ajo-journeys.md)
