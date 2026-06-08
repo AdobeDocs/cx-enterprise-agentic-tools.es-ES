@@ -2,7 +2,7 @@
 title: Ejecutar una revisión de campaña en canales múltiples
 description: Utilice CX Enterprise MCP Gateway en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -99,6 +99,7 @@ Se modificaron 3 recorridos en los últimos 7 días. ¿Desea obtener detalles so
 
 +++
 
+
 ## Paso 2: Comprobar el estado de activación de la audiencia
 
 Con los recorridos a la vista, compruebe que las audiencias que alimentan esas campañas fluyen correctamente a sus destinos.
@@ -122,6 +123,7 @@ No se detectaron errores de flujo de datos. Todas las activaciones completadas e
 
 +++
 
+
 ## Paso 3: Extraer métricas de rendimiento de CJA
 
 Una vez establecido el contexto de recorrido y audiencia, utilice CJA para averiguar cómo se están convirtiendo esas campañas y dónde disminuye la participación.
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 Tasa de conversión combinada: 3,8%. El CTR del correo electrónico ha aumentado un 1,2 % en comparación con el periodo de 30 días anterior. Las conversiones push son planas.
 
 +++
+
 
 ## Paso 4: Sintetizar un resumen de estado de la campaña
 
@@ -170,6 +173,7 @@ Este es el resumen del estado de la campaña actual en AJO, Real-Time CDP y CJA:
 No se han detectado problemas críticos. Dos de los elementos anteriores merecen revisión antes del próximo lanzamiento de la campaña.
 
 +++
+
 
 Aquí es donde el enfoque de varios servidores da resultado: el cliente de IA razona en la configuración del recorrido, el estado de la audiencia y los datos de rendimiento en una sola conversación.
 
@@ -199,6 +203,7 @@ La conversión plana suele indicar fatiga del mensaje o una discrepancia entre l
 ¿Con cuál te gustaría empezar?
 
 +++
+
 
 ## Lo que ha conseguido
 
@@ -280,13 +285,14 @@ Which channel has the highest conversion rate across all active campaigns?
 
 +++
 
+
 ## Más información
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
 | [Documentación de AJO](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) | Documentación completa de la aplicación de AJO |
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configuración y referencia de la herramienta del MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
 | [Servidor MCP de AJO en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidad y herramientas del servidor AJO MCP |
 | [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |

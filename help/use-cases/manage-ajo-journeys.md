@@ -2,17 +2,16 @@
 title: Detecte los problemas de recorrido antes de que afecten a los clientes
 description: Utilice CX Enterprise MCP Gateway para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # Detecte los problemas de recorrido antes de que afecten a los clientes
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![Revisar Recorridos de AJO](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ Obtener una imagen clara de qué recorridos están activos, qué condiciones los
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AJO |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
+
 
 ## Antes de empezar
 
@@ -72,6 +72,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace: no se realiza ninguna acción sin su confirmación.
 
+
 ## Paso 1: Descubra los recorridos activos y su propósito
 
 Comience por pedir un inventario de los recorridos activos y los objetivos empresariales subyacentes. Esto le proporciona una imagen completa antes de sumergirse en un recorrido específico.
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![Clientes de IA que enumeran los recorridos de clientes disponibles y sus objetivos empresariales](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## Paso 2: Revisar los pasos y la experiencia del cliente de un recorrido
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >Reemplace `[journey name]` con el nombre de un recorrido de sus resultados del paso 1.
+
 
 ## Paso 3: Revisar campañas, audiencias y objetivos
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## Paso 4: Comprender cómo se conectan las campañas y los recorridos
 
 Pida a su cliente de IA que conecte los puntos entre campañas y recorridos, y que le explique cómo trabajan juntos para lograr objetivos de participación compartidos.
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![Cliente de IA que explica la relación entre campañas y recorridos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## Paso 5: Obtener recomendaciones con prioridad
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >El servidor MCP de AJO muestra la información de recorridos y campañas, pero no puede modificar recorridos, campañas o contenido. Para implementar recomendaciones, vaya a la aplicación de AJO directamente o conecte AEM Content MCP Server para realizar cambios de contenido en la misma sesión.
 
+
 ## Lo que ha conseguido
 
-Ha conectado un cliente de IA a Adobe Journey Optimizer y ha creado una imagen completa de su catálogo de recorridos y campañas con cinco mensajes. Ha inventariado los recorridos activos y sus objetivos comerciales, ha revisado paso a paso la experiencia del cliente para un recorrido específico, ha asignado campañas activas a sus audiencias y resultados previstos, ha comprendido cómo se conectan las campañas y los recorridos y ha recibido recomendaciones priorizadas sobre dónde centrarse a continuación. Esto proporciona a los administradores de campañas y marketing del ciclo vital visibilidad estratégica sin abrir la interfaz de AJO.
+Ha conectado un cliente de IA a Adobe Journey Optimizer y ha creado una imagen completa de su catálogo de recorridos y campañas con cinco mensajes. Ha inventariado los recorridos activos y sus objetivos comerciales, ha revisado paso a paso la experiencia del cliente para un recorrido específico, ha asignado campañas activas a sus audiencias y resultados previstos, ha comprendido cómo funcionan juntas las campañas y los recorridos, y ha recibido recomendaciones priorizadas sobre dónde centrarse a continuación. Esto proporciona a los administradores de campañas y marketing del ciclo vital visibilidad estratégica sin abrir la interfaz de AJO.
+
 
 ## Más cosas que puede lograr
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## Más información
 
