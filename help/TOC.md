@@ -3,7 +3,7 @@ user-guide-title: Herramientas de agencia empresarial de Adobe CX
 breadcrumb-title: Herramientas de agente
 user-guide-description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: ece4c03765e73a97d0b0c343b14f7675f6349e7a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Índice {#toc}
+# Índice {#using}
 
 <!-- last-modified: 2026-05-08 -->
 
