@@ -3,9 +3,9 @@ title: Optimización del contenido en función de los datos de rendimiento
 description: Utilice CJA y AEM juntos en una sesión de IA para encontrar campañas con brechas de conversión, diagnosticar la causa y actualizar el contenido sin cambiar de herramienta.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1071'
 ht-degree: 2%
 
 ---
@@ -256,8 +256,5 @@ Publish all confirmed changes and share the updated URLs.
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Documentación del servidor MCP de CJA](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuración y referencia de la herramienta del MCP de CJA |
-| [Documentación de AEM Content MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guía de uso y configuración del MCP de contenido de AEM |
-| [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
-| [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Disponibilidad y herramientas del servidor MCP de contenido de AEM |
-| [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |
+| [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilidad y herramientas del servidor CJA MCP |
+| [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Disponibilidad y herramientas del servidor MCP de contenido de AEM |
