@@ -1,12 +1,12 @@
 ---
 title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
-last-substantial-update: 2026-05-22T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 1%
+source-wordcount: '1053'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Las operaciones de contenido en Adobe Experience Manager, desde la búsqueda de páginas y la revisión de contenido hasta la realización de actualizaciones y publicaciones, suelen requerir la navegación directa por la interfaz de AEM. Este tutorial muestra cómo gestionar esas operaciones a través de un cliente de IA mediante el servidor MCP de contenido de AEM, de modo que los equipos de contenido puedan moverse más rápido sin cambiar de herramienta según el contexto.
 
-| | |
+| Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | Adobe Experience Manager as a Cloud Service |
-| Herramientas agénticas | Servidor MCP de contenido de AEM |
-| Público | Administradores de contenido, equipos de marketing |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
+| **Aplicaciones empresariales de CX** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **Herramientas agénticas** | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Audiencia** | Administradores de contenido, equipos de marketing |
+| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -73,7 +73,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >En la primera conexión, su cliente de IA puede solicitarle que confirme su organización o entorno de AEM. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
->Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la acción propuesta y apruébela o rechace; no se realiza ningún cambio sin su confirmación.
+>Algunas herramientas le piden su aprobación antes de ejecutarse. Revisar la acción propuesta y aprobarla o rechazarla. No se realiza ningún cambio sin su confirmación.
 
 ## Paso 1: Buscar contenido en el entorno de AEM
 

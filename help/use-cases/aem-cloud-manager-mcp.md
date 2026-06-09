@@ -1,12 +1,12 @@
 ---
 title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Administrar entornos de Adobe Experience Manager suele significar iniciar sesión en Cloud Manager, navegar por canalizaciones y entornos y cambiar de contexto para realizar un seguimiento del estado de implementación. Este tutorial muestra cómo gestionar esas operaciones desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los desarrolladores y equipos de operaciones puedan comprobar el estado, revisar las canalizaciones y actuar en los detalles de implementación sin salir de su entorno de IA.
 
-| | |
+| Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | Adobe Experience Manager Cloud Manager |
-| Herramientas agénticas | Servidor MCP de AEM Cloud Manager |
-| Público | Desarrolladores, DevOps, equipos de operaciones |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AEM Cloud Manager |
+| **Aplicaciones empresariales de CX** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **Herramientas agénticas** | [Servidor MCP de AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **Audiencia** | Desarrolladores, DevOps, equipos de operaciones |
+| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AEM Cloud Manager |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. A continuación hay **más indicaciones para probar** sección para realizar exploraciones adicionales en la misma sesión.
 
@@ -111,11 +111,11 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 
 >[!NOTE]
 >
->Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a su programa de AEM as a Cloud Service. Los permisos se aplican en el nivel de Cloud Manager: el cliente de IA solo puede realizar las operaciones para las que está autorizada su cuenta.
+>Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a su programa de AEM as a Cloud Service. Los permisos se aplican en el nivel de Cloud Manager. Su cliente de IA solo puede realizar operaciones para las que su cuenta está autorizada.
 >
 >En la primera conexión, su cliente de IA puede solicitarle que confirme su organización o programa de AEM. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
->Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la acción propuesta y apruébela o rechácela; no se realiza ninguna acción sin su confirmación.
+>Algunas herramientas le piden su aprobación antes de ejecutarse. Revisar la acción propuesta y aprobarla o rechazarla. No se realiza ninguna acción sin su confirmación.
 
 ## Paso 1: Comprobar el estado del entorno
 

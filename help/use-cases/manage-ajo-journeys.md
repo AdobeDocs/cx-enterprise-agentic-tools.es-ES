@@ -1,11 +1,11 @@
 ---
 title: Detecte los problemas de recorrido antes de que afecten a los clientes
-description: Utilice CX Enterprise MCP Gateway para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
+description: Utilice el MCP de CX Enterprise para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 3%
 
 ![Cliente de IA que resume la campaña y la estrategia de recorrido con un resumen ejecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-Obtener una imagen clara de qué recorridos están activos, qué condiciones los impulsan y cómo se configuran las campañas normalmente significa abrir Adobe Journey Optimizer y navegar por su interfaz. Este tutorial muestra cómo obtener la misma visibilidad a través de un cliente de IA, utilizando CX Enterprise MCP Gateway para consultar el recorrido de AJO y los datos de campaña a través de preguntas en lenguaje sencillo.
+Obtener una imagen clara de qué recorridos están activos, qué condiciones los impulsan y cómo se configuran las campañas normalmente significa abrir Adobe Journey Optimizer y navegar por su interfaz. Este tutorial muestra cómo obtener la misma visibilidad a través de un cliente de IA, utilizando CX Enterprise MCP para consultar el recorrido de AJO y los datos de campaña a través de preguntas en lenguaje sencillo.
 
-| | |
+| Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | Adobe Journey Optimizer (AJO) |
-| Herramientas agénticas | CX Enterprise MCP Gateway |
-| Público | Administradores de campañas, especialistas en marketing |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AJO |
+| **Aplicaciones empresariales de CX** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
+| **Herramientas agénticas** | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Audiencia** | Administradores de campañas, especialistas en marketing |
+| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AJO |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -34,7 +34,7 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!TAB Claude.ai]
 
-Conecte CX Enterprise MCP Gateway como un conector personalizado para acceder a las herramientas de Adobe Journey Optimizer.
+Conecte el MCP de CX Enterprise como un conector personalizado para acceder a las herramientas de Adobe Journey Optimizer.
 
 1. Vaya a **Configuración > Integraciones** en Claude.ai.
 2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Configuración completa: [Documentación de conectores personalizados Claude.ai]
 
 >[!TAB ChatGPT]
 
-Conecte el portal de enlace MCP de CX Enterprise mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, empresarial o educativo).
+Conecte el MCP de CX Enterprise mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, empresarial o educativo).
 
 1. Habilitar **Modo de desarrollador** en **Configuración de ChatGPT**.
 2. Vaya a **Configuración > Integraciones** y seleccione **Agregar conector personalizado > Servidor MCP remoto**.
@@ -55,7 +55,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 
 >[!TAB Otros clientes de IA]
 
-¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Enterprise MCP Gateway mediante este punto final:
+¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Enterprise MCP utilizando este punto de conexión:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
->Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace: no se realiza ninguna acción sin su confirmación.
+>Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
 
 ## Paso 1: Descubra los recorridos activos y su propósito
@@ -169,7 +169,7 @@ Ha conectado un cliente de IA a Adobe Journey Optimizer y ha creado una imagen c
 
 ## Más cosas que puede lograr
 
-CX Enterprise MCP Gateway le ofrece una amplia gama de recorridos AJO y detalles de campañas. Expanda un escenario de abajo para ver las indicaciones que puede probar en la misma sesión.
+CX Enterprise MCP puede mostrar una amplia gama de detalles de recorridos y campañas de AJO. Expanda un escenario de abajo para ver las indicaciones que puede probar en la misma sesión.
 
 +++Sepa lo que está activo antes de hacer un cambio
 
