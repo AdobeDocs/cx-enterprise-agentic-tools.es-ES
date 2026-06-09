@@ -1,8 +1,9 @@
 ---
 title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP Gateway para supervisar el estado de activación de audiencias, comprobar el estado de destino y los problemas de superficie antes de que afecten a sus campañas.
+last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%

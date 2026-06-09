@@ -1,8 +1,9 @@
 ---
 title: Perspectivas de campañas de superficie sin crear informes
 description: Utilice CX Enterprise MCP Gateway para hacer preguntas de rendimiento de Customer Journey Analytics en lenguaje sencillo y obtener respuestas sin tener que navegar por Report Builder.
+last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
