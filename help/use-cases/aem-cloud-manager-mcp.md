@@ -3,7 +3,7 @@ title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -15,16 +15,16 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 Administrar entornos de Adobe Experience Manager suele significar iniciar sesión en Cloud Manager, navegar por canalizaciones y entornos y cambiar de contexto para realizar un seguimiento del estado de implementación. Este tutorial muestra cómo gestionar esas operaciones desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los desarrolladores y equipos de operaciones puedan comprobar el estado, revisar las canalizaciones y actuar en los detalles de implementación sin salir de su entorno de IA.
 
 | Detalles del escenario | |
 | --- | --- |
-| **Aplicaciones empresariales de CX** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| **Herramientas agénticas** | [Servidor MCP de AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
-| **Audiencia** | Desarrolladores, DevOps, equipos de operaciones |
-| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AEM Cloud Manager |
+| Aplicaciones empresariales de CX | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Herramientas agénticas | [Servidor MCP de AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| Público | Desarrolladores, DevOps, equipos de operaciones |
+| Requisito previo | Cliente de IA compatible con MCP, acceso a AEM Cloud Manager |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. A continuación hay **más indicaciones para probar** sección para realizar exploraciones adicionales en la misma sesión.
 
@@ -279,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | Recurso | Qué va a encontrar |
 | --- | --- |
 | [Documentación de AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Documentación completa de la aplicación de Cloud Manager |
-| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service) | Documentación completa de la aplicación de AEM |
+| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentación completa de la aplicación de AEM |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |

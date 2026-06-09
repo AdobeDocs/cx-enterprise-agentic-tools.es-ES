@@ -3,7 +3,7 @@ title: Detecte los problemas de recorrido antes de que afecten a los clientes
 description: Utilice el MCP de CX Enterprise para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 3%
@@ -20,10 +20,10 @@ Obtener una imagen clara de qué recorridos están activos, qué condiciones los
 
 | Detalles del escenario | |
 | --- | --- |
-| **Aplicaciones empresariales de CX** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
-| **Herramientas agénticas** | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Audiencia** | Administradores de campañas, especialistas en marketing |
-| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AJO |
+| Aplicaciones empresariales de CX | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
+| Herramientas agénticas | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Público | Administradores de campañas, especialistas en marketing |
+| Requisito previo | Cliente de IA compatible con MCP, acceso a AJO |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 

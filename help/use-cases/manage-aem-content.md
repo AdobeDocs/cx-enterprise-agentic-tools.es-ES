@@ -3,7 +3,7 @@ title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 2%
@@ -21,10 +21,10 @@ Las operaciones de contenido en Adobe Experience Manager, desde la búsqueda de 
 
 | Detalles del escenario | |
 | --- | --- |
-| **Aplicaciones empresariales de CX** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **Herramientas agénticas** | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **Audiencia** | Administradores de contenido, equipos de marketing |
-| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
+| Aplicaciones empresariales de CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Herramientas agénticas | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Público | Administradores de contenido, equipos de marketing |
+| Requisito previo | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Documentación de AEM Content MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guía de uso y configuración del servidor MCP |
+| [Documentación de AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guía de uso y configuración del servidor MCP |
 | [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Lista de herramientas y disponibilidad |
-| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service) | Documentación completa de la aplicación de AEM |
-| [Fragmentos de contenido de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referencia de creación de fragmentos de contenido |
+| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentación completa de la aplicación de AEM |
+| [Fragmentos de contenido de AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Referencia de creación de fragmentos de contenido |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |
