@@ -1,12 +1,12 @@
 ---
 title: Ejecutar una revisión de campaña en canales múltiples
-description: Utilice CX Enterprise MCP Gateway en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
-last-substantial-update: 2026-05-21T00:00:00Z
+description: Utilice CX Enterprise MCP en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 4%
+source-wordcount: '1458'
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Una imagen completa del estado de la campaña requiere datos de varios sistemas: recorridos activos de AJO, estado de activación de audiencia de Real-Time CDP y métricas de rendimiento de CJA. Este tutorial muestra cómo conectar los tres elementos en una sola sesión de IA para que pueda pasar del estado del recorrido al estado de la audiencia y las tendencias de rendimiento en una conversación en lugar de usar tres herramientas independientes.
 
-| | |
+| Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | Adobe Journey Optimizer, Customer Journey Analytics, Real-Time CDP |
-| Herramientas agénticas | CX Enterprise MCP Gateway |
-| Público | Administradores de campañas, operaciones de marketing |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
+| **Aplicaciones empresariales de CX** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
+| **Herramientas agénticas** | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Audiencia** | Administradores de campañas, operaciones de marketing |
+| **Requisito previo** | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -34,7 +34,7 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!TAB Claude.ai]
 
-Conecte CX Enterprise MCP Gateway como un conector personalizado. Una conexión le permite acceder a las herramientas de AJO, CJA y Real-Time CDP.
+Conecte CX Enterprise MCP como un conector personalizado. Una conexión le permite acceder a las herramientas de AJO, CJA y Real-Time CDP.
 
 1. Vaya a **Configuración > Integraciones** en Claude.ai.
 2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Configuración completa: [Documentación de conectores personalizados Claude.ai]
 
 >[!TAB ChatGPT]
 
-Conecte el portal de enlace MCP de CX Enterprise mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, empresarial o educativo).
+Conecte el MCP de CX Enterprise mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, empresarial o educativo).
 
 1. Habilitar **Modo de desarrollador** en **Configuración de ChatGPT**.
 2. Vaya a **Configuración > Integraciones** y seleccione **Agregar conector personalizado > Servidor MCP remoto**.
@@ -55,7 +55,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 
 >[!TAB Otros clientes de IA]
 
-¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Enterprise MCP Gateway mediante este punto final:
+¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Enterprise MCP utilizando este punto de conexión:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
->Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace: no se realiza ninguna acción sin su confirmación.
+>Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
 ## Paso 1: Revisar los recorridos y campañas activos
 
@@ -87,12 +87,12 @@ Se han encontrado 8 recorridos activos en su organización de AJO:
 
 | Recorrido | Canal(s) | Última modificación |
 | --- | --- | --- |
-| Serie de bienvenida — Nuevos miembros | Correo electrónico, push | 18 de mayo de 2026 |
+| Serie de bienvenida: nuevos miembros | Correo electrónico, push | 18 de mayo de 2026 |
 | Seguimiento posterior a la compra | Correo electrónico, SMS | 14 de mayo de 2026 |
 | Reparticipación de fidelización | Correo electrónico | 20 de mayo de 2026 |
-| Carro abandonado: 24 horas | Correo electrónico, SMS | 10 de mayo de 2026 |
+| Carro abandonado: 24hr | Correo electrónico, SMS | 10 de mayo de 2026 |
 | Promoción de primavera | Correo electrónico, push | 19 de mayo de 2026 |
-| Win-Back: 90 días inactivo | Correo electrónico | 28 abr. 2026 |
+| Win-Back: 90 días inactivos | Correo electrónico | 28 abr. 2026 |
 | Recompensa de cumpleaños | Correo electrónico | 15 abr. 2026 |
 | Nueva participación: exclusión push | SMS | 12 de mayo de 2026 |
 
@@ -111,7 +111,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++Ver una respuesta de ejemplo
 
-**Segmento de fidelidad de alto valor** — estado de activación en varios destinos:
+**Segmento de fidelidad de alto valor**: estado de activación en varios destinos:
 
 | Destino | Estado | Última ejecución correcta | Tamaño de público |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 +++Ver una respuesta de ejemplo
 
-**Campaña de renovación de la participación de fidelización** — del 21 de abril al 21 de mayo de 2026:
+**Campaña de renovación de la participación por fidelidad**: del 21 de abril al 21 de mayo de 2026:
 
 | Canal | Envíos | CTR | Conversiones | Conv. Tasa |
 | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ Este es el resumen del estado de la campaña actual en AJO, Real-Time CDP y CJA:
 **Marcas para atención:**
 
 - El recorrido Win-Back (90 días inactivo) se modificó por última vez hace 23 días y no se ha revisado recientemente.
-- La tasa de conversión push se ha mantenido sin cambios durante 3 períodos consecutivos; vale la pena revisar los mensajes o el tiempo.
+- La tasa de conversión push se ha mantenido sin cambios durante 3 períodos consecutivos, lo que vale la pena revisar los mensajes o el tiempo.
 
 No se han detectado problemas críticos. Dos de los elementos anteriores merecen revisión antes del próximo lanzamiento de la campaña.
 
@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [Documentación de AJO](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) | Documentación completa de la aplicación de AJO |
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configuración y referencia de la herramienta del MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
 | [Servidor MCP de AJO en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidad y herramientas del servidor AJO MCP |
 | [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |
