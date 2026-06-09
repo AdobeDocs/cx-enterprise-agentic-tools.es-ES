@@ -21,7 +21,7 @@ Una imagen completa del estado de la campaña requiere datos de varios sistemas:
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
+| Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
 | Herramientas agénticas | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Público | Administradores de campañas, operaciones de marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [Documentación de AJO](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) | Documentación completa de la aplicación de AJO |
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configuración y referencia de la herramienta del MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración de RTCDP MCP |
 | [Servidor MCP de AJO en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilidad y herramientas del servidor AJO MCP |
 | [Servidor MCP de CJA en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilidad y herramientas del servidor CJA MCP |
 | [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |
