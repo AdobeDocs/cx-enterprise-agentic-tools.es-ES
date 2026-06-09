@@ -3,9 +3,9 @@ title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: a580957c41e750578b03688bb7ef980103a97781
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Seleccione una aplicación para ver el punto de conexión y las funcionalidades.
 
 **Un extremo. Varias aplicaciones empresariales de CX.**
 
-Conéctese una vez y su cliente de IA tendrá acceso a las aplicaciones de CX Enterprise en función de las licencias de su organización.
+Conéctese una vez y su cliente de IA tendrá acceso a las aplicaciones de CX Enterprise en función de las licencias de su organización. Para habilitar su organización, envíe un correo electrónico a [cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com) para solicitar acceso.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->El acceso a cada aplicación empresarial de CX se basa en los derechos de su organización y en los permisos de su usuario en Adobe Admin Console.
+>El acceso a cada aplicación empresarial de CX se basa en los derechos de su organización y en los permisos de su usuario en Adobe Admin Console. Para habilitar CX Enterprise MCP para su organización, envíe un mensaje de correo electrónico a [cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com).
 
 >[!TAB Experience Manager]
 
@@ -82,17 +82,13 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 
 >[!TAB Marketo Engage]
 
->[!NOTE]
->
->Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación de Marketo Engage MCP Server](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) para obtener instrucciones sobre la configuración de autenticación.
-
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
 | [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
 
 >[!NOTE]
 >
->El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
+>Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación del servidor MCP de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) para obtener información sobre la configuración de autenticación. El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
 
 >[!TAB Target]
 
@@ -292,11 +288,6 @@ CARDS
   {title = Optimize content based on performance data}
   {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
   {cta = Start walkthrough}
-
-* ../use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Use CX Enterprise MCP for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
-  {cta = Start walkthrough}
 -->
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -416,33 +407,12 @@ CARDS
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="../use-cases/cross-channel-campaign-review.md" title="Ejecutar una revisión de campaña en canales múltiples" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="Ejecutar una revisión de campaña en canales múltiples"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="Ejecutar una revisión de campaña en canales múltiples">Ejecutar una revisión de campaña en canales múltiples</a>
-                    </p>
-                    <p class="is-size-6">Utilice CX Enterprise MCP para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en una sesión de IA.</p>
-                </div>
-                <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Resolución de problemas
+## ¿Necesita más ayuda?
+
+Las conexiones MCP implican autenticación, selección de la organización y permisos de nivel de aplicación. Si algo no funciona como se espera, estos pasos cubren las causas más comunes.
 
 +++Cambio de organizaciones de Adobe
 
