@@ -3,9 +3,9 @@ title: API para generadores
 description: Cree aplicaciones e integraciones personalizadas con las API de Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 11%
 
 ---
@@ -103,11 +103,11 @@ Administración de usuarios, administración de identidades y automatización de
 
 >[!ENDTABS]
 
-## Introducción a las API para generadores
+## Compilación con API
 
 ![Un IDE que se conecta a las API de Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-Las API de Adobe CX Enterprise requieren dos cosas antes de poder crearse: credenciales autenticadas de Adobe Developer Console y documentación de API agregada al proyecto para que el agente de codificación pueda trabajar con las API de Adobe de forma fiable.
+Los agentes de codificación como Claude Code, Cursor y OpenAI Codex son ideales para crear con las API de Adobe CX Enterprise: agregue una especificación de OpenAPI al proyecto y el agente pueda descubrir puntos finales, construir solicitudes y razonar sobre el comportamiento de la API sin cableado manual. Para empezar, necesita dos cosas: credenciales autenticadas de Adobe Developer Console y documentación de API agregadas al proyecto.
 
 ### Configuración de credenciales de API en Adobe Developer Console
 
@@ -192,15 +192,3 @@ project/
 **Manteniendo las especificaciones actualizadas**
 
 Cuando Adobe publique una nueva versión de la API: descargue una instantánea nueva en `/specs`, actualice la fecha en `README.md` y vuelva a generar el índice y `AGENTS.md`.
-
-## API para generadores y servidores MCP
-
-Utilice las API cuando necesite un control total sobre la integración del sistema o esté creando una aplicación personalizada. Utilice los servidores MCP cuando desee que un agente de IA trabaje directamente con flujos de trabajo de Adobe.
-
-| | API | Servidores MCP |
-| --- | --- | --- |
-| Integración directa del sistema | Sí | A veces |
-| Orquestación compatible con agentes | Limitado | Sí |
-| Acceso a datos sin procesar | Sí | Generalmente abstracto |
-| Desarrollo de aplicaciones personalizadas | Caso de uso principal | Secundario |
-| Flujos de trabajo asistidos por IA | Admitido | Caso de uso principal |
