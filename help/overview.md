@@ -3,7 +3,7 @@ title: Herramientas de agencia empresarial de Adobe CX
 description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491245/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Deje que la IA se convierta en su compañero de trabajo para Adobe CX Enterprise. Conecte su cliente de IA a campañas, audiencias, recorridos y contenido. Interactúe con ellos en lenguaje sencillo desde cualquier herramienta que ya utilice. No se necesitan nuevas interfaces, no se cambia el contexto ni se codifica para comenzar.
 
@@ -49,7 +49,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/mcp-servers.md" title="Servidores MCP" target="_blank" rel="referrer">
+                    <a href="tools/mcp-servers.md" title="Servidores MCP">
                         <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="Servidores MCP"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -58,11 +58,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/mcp-servers.md" target="_blank" rel="referrer" title="Servidores MCP">Servidores MCP</a>
+                        <a href="tools/mcp-servers.md" title="Servidores MCP">Servidores MCP</a>
                     </p>
                     <p class="is-size-6">Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise. Consulte datos, analice campañas y acceda a audiencias sin salir de la herramienta de IA.</p>
                 </div>
-                <a href="tools/mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar servidores MCP</span>
                 </a>
             </div>
@@ -72,7 +72,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/agent-skills.md" title="Aptitudes de agente" target="_blank" rel="referrer">
+                    <a href="tools/agent-skills.md" title="Aptitudes de agente">
                         <img class="is-bordered-r-small" src="assets/agent-skills-card.png" alt="Aptitudes de agente"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -81,11 +81,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/agent-skills.md" target="_blank" rel="referrer" title="Aptitudes de agente">Aptitudes de agente</a>
+                        <a href="tools/agent-skills.md" title="Aptitudes de agente">Aptitudes de agente</a>
                     </p>
                     <p class="is-size-6">Flujos de trabajo depurados por Adobe que guían a los agentes a través de las tareas empresariales de CX. Experiencia en dominios codificada una vez, aplicada de forma coherente.</p>
                 </div>
-                <a href="tools/agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar las aptitudes del agente</span>
                 </a>
             </div>
@@ -95,7 +95,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="tools/apis.md" title="API para generadores" target="_blank" rel="referrer">
+                    <a href="tools/apis.md" title="API para generadores">
                         <img class="is-bordered-r-small" src="assets/apis-card.png" alt="API para generadores"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -104,11 +104,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/apis.md" target="_blank" rel="referrer" title="API para generadores">API para generadores</a>
+                        <a href="tools/apis.md" title="API para generadores">API para generadores</a>
                     </p>
                     <p class="is-size-6">Cree aplicaciones empresariales de Adobe CX personalizadas con herramientas de codificación genéricas como Claude Code y Cursor.</p>
                 </div>
-                <a href="tools/apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar API para generadores</span>
                 </a>
             </div>
@@ -177,7 +177,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña" target="_blank" rel="referrer">
+                    <a href="use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña">
                         <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analizar el rendimiento de la campaña"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -186,11 +186,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="Analizar el rendimiento de la campaña">Analizar el rendimiento de la campaña</a>
+                        <a href="use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña">Analizar el rendimiento de la campaña</a>
                     </p>
                     <p class="is-size-6">Comparaciones y tendencias de conversión de Surface Customer Journey Analytics mediante preguntas en lenguaje sencillo. Utiliza CX Enterprise MCP.</p>
                 </div>
-                <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
                 </a>
             </div>
@@ -200,7 +200,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA" target="_blank" rel="referrer">
+                    <a href="use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA">
                         <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Administración de contenido de AEM con IA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -209,11 +209,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="Administración de contenido de AEM con IA">Administrar contenido de AEM con IA</a>
+                        <a href="use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA">Administrar contenido de AEM con IA</a>
                     </p>
                     <p class="is-size-6">Descubra, actualice y publique páginas y fragmentos de contenido en AEM con lenguaje natural.</p>
                 </div>
-                <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
                 </a>
             </div>
