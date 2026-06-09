@@ -3,10 +3,10 @@ title: API para generadores
 description: Cree aplicaciones e integraciones personalizadas con las API de Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 Las API de Adobe CX Enterprise proporcionan a los desarrolladores y a las herramientas agénticas de codificación asistida por IA acceso directo a los datos y flujos de trabajo de Adobe. Utilícelos para crear aplicaciones personalizadas, automatizar integraciones e incrustar las funcionalidades de Adobe en sus propios sistemas. Las API son la elección correcta cuando necesita un control programático completo de una integración de sistema o cuando está creando una aplicación sobre los datos de Adobe. Para obtener acceso conversacional a los flujos de trabajo de Adobe impulsado por el agente, consulte [servidores MCP](mcp-servers.md).
 
 ## API de Adobe CX para empresas
-
-Las API de Adobe CX Enterprise exponen los datos y las operaciones principales que alimentan productos como Adobe Experience Platform, Journey Optimizer y Customer Journey Analytics. Cada API sigue un diseño centrado en la API, que proporciona a los desarrolladores y a las herramientas agénticas de codificación asistida por IA acceso directo y programable a las mismas funciones que utiliza Adobe internamente. Utilícelos para crear aplicaciones personalizadas, automatizar flujos de trabajo e integrar datos de Adobe en sus propios sistemas.
 
 <!--
 CARDS
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## API para generadores y servidores MCP
-
-Utilice las API cuando necesite un control total sobre la integración del sistema o esté creando una aplicación personalizada. Utilice los servidores MCP cuando desee que un agente de IA trabaje directamente con flujos de trabajo de Adobe.
-
-| | API | Servidores MCP |
-| --- | --- | --- |
-| Integración directa del sistema | Sí | A veces |
-| Orquestación compatible con agentes | Limitado | Sí |
-| Acceso a datos sin procesar | Sí | Generalmente abstracto |
-| Desarrollo de aplicaciones personalizadas | Caso de uso principal | Secundario |
-| Flujos de trabajo asistidos por IA | Admitido | Caso de uso principal |
-
 ## Introducción a las API para generadores
 
 ![Un IDE que se conecta a las API de Adobe CX Enterprise](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **Manteniendo las especificaciones actualizadas**
 
 Cuando Adobe publique una nueva versión de la API: descargue una instantánea nueva en `/specs`, actualice la fecha en `README.md` y vuelva a generar el índice y `AGENTS.md`.
+
+## API para generadores y servidores MCP
+
+Utilice las API cuando necesite un control total sobre la integración del sistema o esté creando una aplicación personalizada. Utilice los servidores MCP cuando desee que un agente de IA trabaje directamente con flujos de trabajo de Adobe.
+
+| | API | Servidores MCP |
+| --- | --- | --- |
+| Integración directa del sistema | Sí | A veces |
+| Orquestación compatible con agentes | Limitado | Sí |
+| Acceso a datos sin procesar | Sí | Generalmente abstracto |
+| Desarrollo de aplicaciones personalizadas | Caso de uso principal | Secundario |
+| Flujos de trabajo asistidos por IA | Admitido | Caso de uso principal |
