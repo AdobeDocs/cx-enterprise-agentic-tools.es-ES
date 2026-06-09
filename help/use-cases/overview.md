@@ -3,7 +3,7 @@ title: Herramientas agénticas en acción
 description: Tutoriales paso a paso que muestran las herramientas de Adobe CX Enterprise Agent aplicadas a flujos de trabajo empresariales reales.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%

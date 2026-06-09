@@ -3,7 +3,7 @@ title: API para generadores
 description: Cree aplicaciones e integraciones personalizadas con las API de Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -11,7 +11,7 @@ ht-degree: 11%
 ---
 
 
-# API para generadores
+# API para creadores
 
 <!-- last-modified: 2026-06-02 -->
 
@@ -107,7 +107,7 @@ Administración de usuarios, administración de identidades y automatización de
 
 ![Un IDE que se conecta a las API de Adobe CX Enterprise](../assets/hero-connect-apis.gif)
 
-Los agentes de codificación como Claude Code, Cursor y OpenAI Codex son ideales para crear con las API de Adobe CX Enterprise: agregue una especificación de OpenAPI al proyecto y el agente pueda descubrir puntos finales, construir solicitudes y razonar sobre el comportamiento de la API sin cableado manual. Para empezar, necesita dos cosas: credenciales autenticadas de Adobe Developer Console y documentación de API agregadas al proyecto.
+Los agentes de codificación como Claude Code, Cursor y OpenAI Codex son muy adecuados para la creación con las API de Adobe CX Enterprise. Añada una especificación OpenAPI al proyecto para que el agente pueda descubrir puntos finales, construir solicitudes y razonar sobre el comportamiento de la API sin cableado manual. Para empezar, necesita dos cosas: credenciales autenticadas de Adobe Developer Console y documentación de API agregadas al proyecto.
 
 ### Configuración de credenciales de API en Adobe Developer Console
 
