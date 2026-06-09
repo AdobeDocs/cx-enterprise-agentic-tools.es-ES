@@ -1,8 +1,9 @@
 ---
 title: Herramientas agénticas en acción
 description: Tutoriales paso a paso que muestran las herramientas de Adobe CX Enterprise Agent aplicadas a flujos de trabajo empresariales reales.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 689ace21360ceed512cdd5869bd4f972014ff219
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -55,7 +56,7 @@ CARDS
   {title = Manage AEM environments with Cloud Manager}
   {description = Check environment health, review pipeline runs, and manage deployments from your AI client. Uses the AEM Cloud Manager MCP Server.}
   {cta = Start walkthrough}
-  {image = https://video.tv.adobe.com/v/3480345?captions=spa&format=jpeg}
+  {image = https://video.tv.adobe.com/v/3480340?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -202,7 +203,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="aem-cloud-manager-mcp.md" title="Administración de entornos de AEM con Cloud Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480345?captions=spa&format=jpeg" alt="Administración de entornos de AEM con Cloud Manager"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480340?format=jpeg" alt="Administración de entornos de AEM con Cloud Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

@@ -1,8 +1,9 @@
 ---
 title: Herramientas de agencia empresarial de Adobe CX
 description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491245/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Deje que la IA se convierta en su compañero de trabajo para Adobe CX Enterprise. Conecte su cliente de IA a campañas, audiencias, recorridos y contenido, e interactúe con él en un lenguaje sencillo desde cualquier herramienta que ya utilice. No se necesitan nuevas interfaces, no se cambia el contexto ni se codifica para comenzar.
 
