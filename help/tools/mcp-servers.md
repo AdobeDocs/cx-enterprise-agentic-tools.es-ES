@@ -58,13 +58,13 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [AEM (modo de código)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Acceso directo de la API de REST a AEM mediante la búsqueda, lectura, escritura y eliminación en lenguaje natural |
+| [AEM (modo de código)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Acceso directo de la API de REST a AEM mediante la búsqueda, lectura, escritura y eliminación en lenguaje natural |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Administrar programas, entornos, canalizaciones y repositorios |
-| [Contenido de AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Administrar páginas, fragmentos de contenido, recursos e inicios |
-| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Descubra y consulte páginas, fragmentos de contenido e inicios sin acceso de escritura |
+| [Contenido de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Administrar páginas, fragmentos de contenido, recursos e inicios |
+| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Descubra y consulte páginas, fragmentos de contenido e inicios sin acceso de escritura |
 | Creación de documentos de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Administrar archivos, historial de versiones y referencias de medios en la creación de documentos |
 | [Gobernanza de AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Evaluar el contenido y las imágenes en función de las directrices de marca y las reglas de conformidad |
-| [Producción de AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme y cree páginas de AEM a escala mediante informes de contenido impulsados por IA |
+| [Producción de AEM Experience](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme y cree páginas de AEM a escala mediante informes de contenido impulsados por IA |
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
+| [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
 
 >[!NOTE]
 >
->Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación del servidor MCP de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) para obtener información sobre la configuración de autenticación. El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
+>Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación del servidor MCP de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) para obtener información sobre la configuración de autenticación. El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
 
 >[!TAB Target]
 
@@ -96,7 +96,7 @@ El MCP de Adobe Target está en versión de beta pública. Todas las herramienta
 
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Revisar actividades, ofertas, audiencias, mboxes e informes de rendimiento |
+| [Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Revisar actividades, ofertas, audiencias, mboxes e informes de rendimiento |
 
 >[!NOTE]
 >
