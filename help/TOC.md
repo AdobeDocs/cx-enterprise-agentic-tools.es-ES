@@ -3,10 +3,10 @@ user-guide-title: Herramientas de agencia empresarial de Adobe CX
 breadcrumb-title: Herramientas de agente
 user-guide-description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 5%
    + [API para generadores](/help/tools/apis.md)
 + Herramientas agénticas en acción {#in-action}
    + [Información general](/help/use-cases/overview.md)
-   + [Perspectivas de campañas de superficie sin crear informes](/help/use-cases/analyze-campaign-performance.md)
-   + [Comprenda sus audiencias y dónde se activan](/help/use-cases/query-audiences.md)
-   + [Detecte los problemas de recorrido antes de que afecten a los clientes](/help/use-cases/manage-ajo-journeys.md)
-   + [Mantener el contenido actualizado y enviar actualizaciones más rápido](/help/use-cases/manage-aem-content.md)
-   + [Optimización del contenido en función de los datos de rendimiento](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Implementar en AEM as a Cloud Service con confianza](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [Analizar el rendimiento de la campaña](/help/use-cases/analyze-campaign-performance.md)
+   + [Consultar audiencias](/help/use-cases/query-audiences.md)
+   + [Revisar AJO recorrido](/help/use-cases/manage-ajo-journeys.md)
+   + [Administrar contenido de AEM](/help/use-cases/manage-aem-content.md)
+   + [Optimización del contenido con datos de rendimiento](/help/use-cases/optimize-content-with-performance-data.md)
+   + [Implementar en AEM Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
