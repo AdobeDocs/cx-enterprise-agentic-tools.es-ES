@@ -3,9 +3,9 @@ title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
 last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-22 -->
 
-![Administrar contenido de AEM con IA](https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI)
+![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
 Las operaciones de contenido en Adobe Experience Manager, desde la búsqueda de páginas y la revisión de contenido hasta la realización de actualizaciones y publicaciones, suelen requerir la navegación directa por la interfaz de AEM. Este tutorial muestra cómo gestionar esas operaciones a través de un cliente de IA mediante el servidor MCP de contenido de AEM, de modo que los equipos de contenido puedan moverse más rápido sin cambiar de herramienta según el contexto.
 
