@@ -3,9 +3,9 @@ title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '954'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 Administrar entornos de Adobe Experience Manager suele significar iniciar sesión en Cloud Manager, navegar por canalizaciones y entornos y cambiar de contexto para realizar un seguimiento del estado de implementación. Este tutorial muestra cómo gestionar esas operaciones desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los desarrolladores y equipos de operaciones puedan comprobar el estado, revisar las canalizaciones y actuar en los detalles de implementación sin salir de su entorno de IA.
 
@@ -278,6 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Documentación de AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Documentación completa de la aplicación de Cloud Manager |
-| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service) | Documentación completa de la aplicación de AEM |
-| [Servidores MCP](../tools/mcp-servers.md) | Conectar un cliente de IA a servidores MCP de Adobe |
+| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentación completa de la aplicación de AEM |
