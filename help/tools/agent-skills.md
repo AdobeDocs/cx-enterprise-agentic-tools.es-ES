@@ -3,10 +3,10 @@ title: Aptitudes de agente
 description: Flujos de trabajo e instrucciones seleccionados por Adobe que guían a los agentes de IA a través de las tareas de CX Enterprise de forma coherente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '440'
+ht-degree: 1%
 
 ---
 
@@ -57,17 +57,13 @@ Habilidades del agente para la edición fotográfica por lotes, diseño a partir
 
 >[!ENDTABS]
 
-## Cómo funcionan las habilidades del agente
+## Agregar aptitudes de agente
 
 ![Funcionamiento de las aptitudes del agente](../assets/hero-connect-agent-skills.gif)
 
 Una aptitud de agente es un conjunto de instrucciones que indica a un agente de IA cómo completar una tarea mediante las herramientas agénticas de Adobe. Cuando un agente carga una habilidad, sigue ese flujo de trabajo en lugar de improvisar.
 
-- Los agentes completan las tareas del mismo modo cada vez
-- La experiencia del dominio se codifica una vez y se reutiliza en las conversaciones
-- Las habilidades pueden encadenar varias herramientas y acciones agénticas en un único flujo de trabajo
-
-## Introducción
+### Instalar aptitudes de agente
 
 Las aptitudes de agente se instalan en función del cliente de IA que utilice. Algunos clientes admiten la instalación directa desde la línea de comandos:
 
@@ -86,12 +82,3 @@ Después de instalar o agregar el paquete `adobe/skills`, algunos clientes de IA
 - **Código Claude**: `claude /plugin list`
 - **Entornos de nodo**: `npx skills list`
 - **CLI de GitHub**: `gh upskill list`
-
-## Aptitudes de agente frente a servidores MCP y API para creadores
-
-| | Aptitudes de agente | Servidores MCP | API para generadores |
-| --- | --- | --- | --- |
-| Objetivo | Flujos de trabajo guiados y prácticas recomendadas | Acceso a datos y flujos de trabajo de Adobe | Integración directa del sistema |
-| Codifica la experiencia del dominio | Sí | No | No |
-| Requiere codificación | No | No | Sí |
-| Mejor para | Tareas repetibles y guiadas | Consultas de datos y acciones de flujo de trabajo | Desarrollo de aplicaciones personalizadas |
