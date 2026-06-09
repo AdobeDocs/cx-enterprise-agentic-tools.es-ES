@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
 
 Administrar entornos de Adobe Experience Manager suele significar iniciar sesión en Cloud Manager, navegar por canalizaciones y entornos y cambiar de contexto para realizar un seguimiento del estado de implementación. Este tutorial muestra cómo gestionar esas operaciones desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los desarrolladores y equipos de operaciones puedan comprobar el estado, revisar las canalizaciones y actuar en los detalles de implementación sin salir de su entorno de IA.
 
