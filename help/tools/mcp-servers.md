@@ -3,9 +3,9 @@ title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: a580957c41e750578b03688bb7ef980103a97781
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491325/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Los servidores MCP empresariales de Adobe CX proporcionan a cualquier cliente de IA compatible acceso directo y controlado a los datos y flujos de trabajo de Adobe. Conéctese una vez y podrá consultar el rendimiento de la campaña, activar audiencias, revisar recorridos, administrar contenido y mucho más, todo en un lenguaje sencillo, sin salir de su entorno de IA. Debido a que los servidores MCP se encuentran entre su cliente de IA y los sistemas subyacentes de Adobe, obtiene flexibilidad en lenguaje natural mientras los controles de acceso y la gobernanza de datos de su organización permanecen vigentes.
 
@@ -33,7 +33,7 @@ Seleccione una aplicación para ver el punto de conexión y las funcionalidades.
 
 **Un extremo. Varias aplicaciones empresariales de CX.**
 
-Conéctese una vez y su cliente de IA tendrá acceso a las aplicaciones de CX Enterprise en función de las licencias de su organización.
+Conéctese una vez y su cliente de IA tendrá acceso a las aplicaciones de CX Enterprise en función de las licencias de su organización. Para habilitar su organización, envíe un correo electrónico a [cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com) para solicitar acceso.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->El acceso a cada aplicación empresarial de CX se basa en los derechos de su organización y en los permisos de su usuario en Adobe Admin Console.
+>El acceso a cada aplicación empresarial de CX se basa en los derechos de su organización y en los permisos de su usuario en Adobe Admin Console. Para habilitar CX Enterprise MCP para su organización, envíe un mensaje de correo electrónico a [cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com).
 
 >[!TAB Experience Manager]
 
@@ -58,13 +58,13 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [AEM (modo de código)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Acceso directo de la API de REST a AEM mediante la búsqueda, lectura, escritura y eliminación en lenguaje natural |
+| [AEM (modo de código)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Acceso directo de la API de REST a AEM mediante la búsqueda, lectura, escritura y eliminación en lenguaje natural |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Administrar programas, entornos, canalizaciones y repositorios |
-| [Contenido de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Administrar páginas, fragmentos de contenido, recursos e inicios |
-| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Descubra y consulte páginas, fragmentos de contenido e inicios sin acceso de escritura |
+| [Contenido de AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Administrar páginas, fragmentos de contenido, recursos e inicios |
+| [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Descubra y consulte páginas, fragmentos de contenido e inicios sin acceso de escritura |
 | [Creación de documentos de AEM]&#x200B;(TODO: validate) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Administrar archivos, historial de versiones y referencias de medios en la creación de documentos |
 | [Gobernanza de AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Evaluar el contenido y las imágenes en función de las directrices de marca y las reglas de conformidad |
-| [Producción de AEM Experience](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme y cree páginas de AEM a escala mediante informes de contenido impulsados por IA |
+| [Producción de AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme y cree páginas de AEM a escala mediante informes de contenido impulsados por IA |
 
 >[!NOTE]
 >
@@ -82,17 +82,13 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 
 >[!TAB Marketo Engage]
 
->[!NOTE]
->
->Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación de Marketo Engage MCP Server](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) para obtener instrucciones sobre la configuración de autenticación.
-
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
 
 >[!NOTE]
 >
->El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
+>Marketo Engage MCP utiliza credenciales de servicio nativas de Marketo, no de Adobe IMS. Consulte la [documentación del servidor MCP de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) para obtener información sobre la configuración de autenticación. El acceso depende de la suscripción a Marketo Engage y de los permisos del usuario de la API.
 
 >[!TAB Target]
 
@@ -100,7 +96,7 @@ El MCP de Adobe Target está en versión de beta pública. Todas las herramienta
 
 | Servidor MCP | Punto de conexión | Lo que puede hacer |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Revisar actividades, ofertas, audiencias, mboxes e informes de rendimiento |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Revisar actividades, ofertas, audiencias, mboxes e informes de rendimiento |
 
 >[!NOTE]
 >
@@ -292,11 +288,6 @@ CARDS
   {title = Optimize content based on performance data}
   {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
   {cta = Start walkthrough}
-
-* ../use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Use CX Enterprise MCP for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
-  {cta = Start walkthrough}
 -->
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -416,33 +407,12 @@ CARDS
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="../use-cases/cross-channel-campaign-review.md" title="Ejecutar una revisión de campaña en canales múltiples" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="Ejecutar una revisión de campaña en canales múltiples"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="Ejecutar una revisión de campaña en canales múltiples">Ejecutar una revisión de campaña en canales múltiples</a>
-                    </p>
-                    <p class="is-size-6">Utilice CX Enterprise MCP para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en una sesión de IA.</p>
-                </div>
-                <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Resolución de problemas
+## ¿Necesita más ayuda?
+
+Las conexiones MCP implican autenticación, selección de la organización y permisos de nivel de aplicación. Si algo no funciona como se espera, estos pasos cubren las causas más comunes.
 
 +++Cambio de organizaciones de Adobe
 
