@@ -3,7 +3,7 @@ title: Recursos
 description: Un punto de entrada único para toda la documentación, los registros, las API y las guías para desarrolladores de Adobe CX Enterprise Agentic Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 16%
@@ -42,7 +42,7 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 | [Repositorio de habilidades de Adobe](https://github.com/adobe/skills) | Fuente canónica para todas las aptitudes de agente, métodos de instalación y detalles de implementación |
 | [Registro de Adobe AI: Aptitudes de agente](https://developer.adobe.com/ai-registry/?type=skill) | Catálogo completo de aptitudes de agente disponibles con metadatos y estado de disponibilidad |
 
-## API para generadores
+## API para creadores
 
 | Recurso | Qué va a encontrar |
 |---|---|

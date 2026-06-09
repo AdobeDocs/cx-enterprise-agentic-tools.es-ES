@@ -3,7 +3,7 @@ title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Todos los servidores MCP de Adobe utilizan OAuth con Adobe Identity Management S
 
 Antes de realizar la configuración manualmente, compruebe en el [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=connector) si hay un conector administrado para el cliente de IA y la aplicación de Adobe. Los conectores administrados gestionan la autenticación automáticamente. Si hay un conector disponible para su cliente y aplicación, utilícelo en lugar de los pasos manuales que se indican a continuación.
 
-Los pasos siguientes utilizan el punto final de CX Enterprise MCP como ejemplo. El mismo proceso se aplica a cualquier servidor MCP de Adobe: cambie la dirección URL del extremo por el servidor al que desee conectarse.
+Los pasos siguientes utilizan el punto final de CX Enterprise MCP como ejemplo. El mismo proceso se aplica a cualquier servidor MCP de Adobe: cambie la URL del punto de conexión por el servidor al que desee conectarse.
 
 ![Un agente de IA conectándose a un servidor MCP de Adobe](../assets/hero-connect-mcp-servers.gif)
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studio se conecta a servidores MCP remotos mediante el asisten
 1. Abra su agente en Copilot Studio.
 2. Vaya a la página **Herramientas**.
 3. Seleccione **Agregar una herramienta > Nueva herramienta > Protocolo de contexto de modelo**.
-4. En el Asistente para la incorporación de MCP, introduzca los detalles del servidor, por ejemplo, para el MCP de CX Enterprise:
+4. En el Asistente para la incorporación de MCP, introduzca los detalles del servidor. Por ejemplo, para el MCP empresarial de CX:
    - **Nombre del servidor:** `Adobe CX Enterprise`
    - **URL del servidor:** `https://cx-enterprise.adobe.io/mcp`
 5. Establezca la autenticación en **OAuth 2.0** y configúrelo con sus URL de autorización y token de Adobe IMS.
