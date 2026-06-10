@@ -1,11 +1,11 @@
 ---
 title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP para supervisar el estado de activación de la audiencia, comprobar el estado del destino y los problemas de superficie antes de que afecten a sus campañas.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![Cliente de IA que proporciona una estrategia de audiencia priorizada con recomendaciones de activación](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-Saber qué audiencias están activadas, a dónde fluyen y si los destinos están en buen estado suele significar abrir Real-Time CDP y navegar por varias pantallas. Este tutorial muestra cómo obtener las mismas respuestas a través de un cliente de IA, utilizando el servidor MCP de RTCDP para mostrar la configuración de destino, el estado de activación y el estado del flujo de datos a través de preguntas en lenguaje sencillo.
+Saber qué audiencias están activas, a dónde fluyen y si los destinos están en buen estado es fundamental antes de que se inicie una campaña o cuando el rendimiento de una es inferior al esperado. Este tutorial muestra cómo obtener una imagen completa de la activación mediante un cliente de IA, utilizando el MCP de CX Enterprise para mostrar el estado de la audiencia y el estado del destino en segundos, sin necesidad de abrir Real-Time CDP.
 
 | Detalles del escenario | |
 | --- | --- |

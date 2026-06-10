@@ -1,11 +1,11 @@
 ---
 title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 3%
 
 ![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-Las operaciones de contenido en Adobe Experience Manager, desde la búsqueda de páginas y la revisión de contenido hasta la realización de actualizaciones y publicaciones, suelen requerir la navegación directa por la interfaz de AEM. Este tutorial muestra cómo gestionar esas operaciones a través de un cliente de IA mediante el servidor MCP de contenido de AEM, de modo que los equipos de contenido puedan moverse más rápido sin cambiar de herramienta según el contexto.
+Mantener actualizado el contenido del sitio web es una presión operativa constante. Este tutorial muestra cómo los equipos de contenido pueden buscar, revisar, actualizar y publicar páginas y fragmentos de contenido de AEM a través de un cliente de IA, utilizando el servidor MCP de contenido de AEM para reducir el tiempo entre una decisión de contenido y una actualización activa.
 
 | Detalles del escenario | |
 | --- | --- |
 | Aplicaciones empresariales de CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Herramientas agénticas | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Herramientas agénticas | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Público | Administradores de contenido, equipos de marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
 
@@ -265,4 +265,4 @@ Promote the May Updates launch to production.
 | Recurso | Qué va a encontrar |
 | --- | --- |
 | [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Lista de herramientas y disponibilidad |
-| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service){target="_blank"} | Documentación completa de la aplicación de AEM |
+| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentación completa de la aplicación de AEM |

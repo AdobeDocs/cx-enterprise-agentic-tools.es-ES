@@ -3,9 +3,9 @@ title: Herramientas de agencia empresarial de Adobe CX
 description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491245/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-Deje que la IA se convierta en su compañero de trabajo para Adobe CX Enterprise. Conecte su cliente de IA a campañas, audiencias, recorridos y contenido. Interactúe con ellos en lenguaje sencillo desde cualquier herramienta que ya utilice. No se necesitan nuevas interfaces, no se cambia el contexto ni se codifica para comenzar.
+Permita que la IA se convierta en su colaborador para Adobe CX Enterprise. Conecte su cliente de IA a campañas, audiencias, recorridos y contenido. Interactúe con ellos en lenguaje sencillo desde cualquier herramienta que ya utilice. No se necesitan nuevas interfaces, no se cambia el contexto ni se codifica para comenzar.
 
 >[!TIP]
 >**Comience con CX Enterprise MCP.** Una conexión proporciona a su cliente de IA acceso a Adobe Journey Optimizer, Customer Journey Analytics y Real-Time CDP en función de las licencias de su organización. [Conectar ahora](tools/mcp-servers.md#cx-enterprise-mcp-servers)
@@ -161,24 +161,24 @@ Vea el aspecto que tienen en la práctica las herramientas agénticas de Adobe C
 CARDS
 
 * use-cases/analyze-campaign-performance.md
-  {title = Analyze campaign performance}
-  {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
-  {cta = Start walkthrough}
+  {title = Campaign insights without reports}
+  {description = Ask performance questions in plain language and get answers from Customer Journey Analytics, without building a single report.}
+  {cta = Surface campaign insights}
 
 * use-cases/manage-aem-content.md
-  {title = Manage AEM content with AI}
-  {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
-  {cta = Start walkthrough}
+  {title = Ship content updates faster}
+  {description = Find, update, and publish AEM pages and content fragments faster, without switching to the AEM interface.}
+  {cta = Ship content faster}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Campaign insights without reports">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña">
-                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analizar el rendimiento de la campaña"
+                    <a href="use-cases/analyze-campaign-performance.md" title="Perspectivas de campaña sin informes">
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Perspectivas de campaña sin informes"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -186,22 +186,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" title="Analizar el rendimiento de la campaña">Analizar el rendimiento de la campaña</a>
+                        <a href="use-cases/analyze-campaign-performance.md" title="Perspectivas de campaña sin informes">Perspectivas de campaña sin informes</a>
                     </p>
-                    <p class="is-size-6">Comparaciones y tendencias de conversión de Surface Customer Journey Analytics mediante preguntas en lenguaje sencillo. Utiliza CX Enterprise MCP.</p>
+                    <p class="is-size-6">Haga preguntas de rendimiento en lenguaje sencillo y obtenga respuestas de Customer Journey Analytics, sin crear un solo informe.</p>
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Perspectivas de la campaña de Surface</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Ship content updates faster">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA">
-                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Administración de contenido de AEM con IA"
+                    <a href="use-cases/manage-aem-content.md" title="Envío de actualizaciones de contenido más rápido">
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Envío de actualizaciones de contenido más rápido"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -209,12 +209,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" title="Administración de contenido de AEM con IA">Administrar contenido de AEM con IA</a>
+                        <a href="use-cases/manage-aem-content.md" title="Envío de actualizaciones de contenido más rápido">Enviar actualizaciones de contenido más rápido</a>
                     </p>
-                    <p class="is-size-6">Descubra, actualice y publique páginas y fragmentos de contenido en AEM con lenguaje natural.</p>
+                    <p class="is-size-6">Busque, actualice y publique páginas de AEM y fragmentos de contenido más rápido, sin cambiar a la interfaz de AEM.</p>
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Iniciar tutorial</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Enviar contenido más rápido</span>
                 </a>
             </div>
         </div>
