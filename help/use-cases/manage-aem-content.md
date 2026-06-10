@@ -22,7 +22,7 @@ Mantener actualizado el contenido del sitio web es una presión operativa consta
 | Detalles del escenario | |
 | --- | --- |
 | Aplicaciones empresariales de CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Herramientas agénticas | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Herramientas agénticas | [Servidor MCP de contenido AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Público | Administradores de contenido, equipos de marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AEM as a Cloud Service |
 
@@ -265,4 +265,4 @@ Promote the May Updates launch to production.
 | Recurso | Qué va a encontrar |
 | --- | --- |
 | [Servidor MCP de contenido de AEM en el registro de IA](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Lista de herramientas y disponibilidad |
-| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Documentación completa de la aplicación de AEM |
+| [Documentación de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service){target="_blank"} | Documentación completa de la aplicación de AEM |
