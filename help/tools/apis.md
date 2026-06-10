@@ -3,10 +3,10 @@ title: API para generadores
 description: Cree aplicaciones e integraciones personalizadas con las API de Adobe CX Enterprise.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 Cuando Adobe publique una nueva versión de la API: descargue una instantánea nueva en `/specs`, actualice la fecha en `README.md` y vuelva a generar el índice y `AGENTS.md`.
 
 ## API en acción
+
+Las API proporcionan a los equipos de desarrollo un control programático completo para crear aplicaciones centradas que automaticen flujos de trabajo empresariales específicos de CX. Estos tutoriales muestran integraciones reales creadas de principio a fin, desde la configuración de credenciales hasta el código de trabajo que su organización puede enviar.
 
 <!--
 CARDS

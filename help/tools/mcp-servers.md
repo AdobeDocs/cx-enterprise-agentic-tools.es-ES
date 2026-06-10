@@ -3,9 +3,9 @@ title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Configuración completa: [Documentación de Copilot Studio MCP](https://learn.mi
 
 >[!ENDTABS]
 
-## Herramientas agénticas en acción
+## Servidores MCP en acción
 
-Consulte Servidores MCP empresariales de Adobe CX aplicados a flujos de trabajo empresariales reales.
+Vea cómo los servidores MCP empresariales de Adobe CX se ponen a trabajar en problemas empresariales reales. Cada tutorial parte de un auténtico desafío operativo y muestra cómo un cliente de IA lo resuelve en lenguaje sencillo, sin cambiar de herramienta ni escribir código.
 
 <!--
 CARDS

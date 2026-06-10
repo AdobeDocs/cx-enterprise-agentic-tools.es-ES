@@ -3,9 +3,9 @@ title: Aptitudes de agente
 description: Flujos de trabajo e instrucciones seleccionados por Adobe que guían a los agentes de IA a través de las tareas de CX Enterprise de forma coherente.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Después de instalar o agregar el paquete `adobe/skills`, algunos clientes de IA
 - **CLI de GitHub**: `gh upskill list`
 
 ## Aptitudes de agente en acción
+
+Las habilidades de agente ponen a los expertos en dominios de Adobe a trabajar dentro de su cliente de IA, por lo que los agentes siguen flujos de trabajo comprobados en lugar de improvisar. Cada uno de los tutoriales siguientes muestra una tarea empresarial específica que se ha completado de forma fiable, guiada por las prácticas recomendadas de Adobe desde el principio hasta el final.
 
 <!--
 CARDS
