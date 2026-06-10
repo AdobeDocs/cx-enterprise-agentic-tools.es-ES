@@ -90,7 +90,7 @@ Las habilidades de agente ponen a los expertos en dominios de Adobe a trabajar d
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
@@ -103,7 +103,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Desarrollo de componentes de AEM con IA" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Desarrollo de componentes de AEM con IA" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Desarrollo de componentes de AEM con IA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -112,11 +112,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Desarrollo de componentes de AEM con IA">Desarrollar componentes de AEM con IA</a>
+                        <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Desarrollo de componentes de AEM con IA">Desarrollar componentes de AEM con IA</a>
                     </p>
                     <p class="is-size-6">Utilice el código o el cursor de Claude con habilidades de agente para andamiar, codificar y refinar los componentes de AEM guiados por las prácticas recomendadas de Adobe.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Probar con habilidades de agente</span>
                 </a>
             </div>
