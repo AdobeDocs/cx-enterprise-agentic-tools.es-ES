@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
 
 La confianza de la implementación proviene de saber que su entorno está en buen estado antes de realizar la push. Este tutorial muestra cómo comprobar el estado del entorno de AEM, revisar el historial de canalización y las implementaciones de déclencheur desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los equipos puedan moverse rápidamente sin perder visibilidad.
 
