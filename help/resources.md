@@ -3,10 +3,10 @@ title: Recursos
 description: Un punto de entrada único para toda la documentación, los registros, las API y las guías para desarrolladores de Adobe CX Enterprise Agentic Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 16%
+source-wordcount: '552'
+ht-degree: 17%
 
 ---
 
@@ -23,8 +23,8 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 
 | Recurso | Qué va a encontrar |
 |---|---|
-| [Registro de Adobe AI: servidores MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Catálogo completo de servidores MCP disponibles con metadatos, extremos y estado |
-| [Registro de Adobe AI: Aptitudes de agente](https://developer.adobe.com/ai-registry/?type=skill) | Catálogo completo de aptitudes de agente disponibles con detalles de disponibilidad y configuración |
+| [Registro de Adobe AI: servidores MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Conectores administrados y detalles del servidor para determinados servidores MCP de Adobe |
+| [Registro de Adobe AI: Aptitudes de agente](https://developer.adobe.com/ai-registry/?type=skill) | Listado de aptitudes del agente con detalles de disponibilidad y configuración para aptitudes seleccionadas |
 | [Catálogo de API de Adobe](https://developer.adobe.com/apis) | Referencia completa de la API de Adobe CX Enterprise |
 
 ## Servidores MCP
@@ -33,14 +33,14 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 |---|---|
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guía de configuración y referencia de la herramienta del servidor CJA MCP |
 | [Guías de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guías de uso detalladas para el servidor MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
 
 ## Aptitudes de agente
 
 | Recurso | Qué va a encontrar |
 |---|---|
 | [Repositorio de habilidades de Adobe](https://github.com/adobe/skills) | Fuente canónica para todas las aptitudes de agente, métodos de instalación y detalles de implementación |
-| [Registro de Adobe AI: Aptitudes de agente](https://developer.adobe.com/ai-registry/?type=skill) | Catálogo completo de aptitudes de agente disponibles con metadatos y estado de disponibilidad |
+| [Registro de Adobe AI: Aptitudes de agente](https://developer.adobe.com/ai-registry/?type=skill) | Listado de aptitudes del agente con disponibilidad y metadatos para aptitudes seleccionadas |
 
 ## API para creadores
 
@@ -74,10 +74,10 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 
 | Recurso | Qué va a encontrar |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/home) | Documentación completa de la aplicación de AEP |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Documentación completa de la aplicación de AEP |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) | Documentación completa de la aplicación de AJO |
 | [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) | Documentación completa de la aplicación de Real-Time CDP |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing) | Documentación completa de la aplicación de CJA |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) | Documentación completa de la aplicación de CJA |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | Documentación completa de Adobe Analytics |
 | [Destinos de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home) | Configuración y administración de destinos |
 | [Tutoriales de AJO](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview) | Tutoriales de vídeo y rutas de aprendizaje de AJO |
