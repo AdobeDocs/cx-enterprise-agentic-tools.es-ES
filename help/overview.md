@@ -3,9 +3,9 @@ title: Herramientas de agencia empresarial de Adobe CX
 description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '594'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ CARDS
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Catálogo completo de servidores MCP |
+| [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp) | Conectores administrados y detalles del servidor para determinados servidores MCP de Adobe |
 | [Aptitudes de agente de Adobe](https://github.com/adobe/skills) | Aptitudes de agente seleccionadas por Adobe para flujos de trabajo de CX Enterprise |
 | [Catálogo de API de Adobe](https://developer.adobe.com/apis) | Referencia completa de la API de Adobe CX Enterprise |
 | [Consola de desarrollador de Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuración y autenticación del proyecto API |

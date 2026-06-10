@@ -3,9 +3,9 @@ title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP para supervisar el estado de activación de la audiencia, comprobar el estado del destino y los problemas de superficie antes de que afecten a sus campañas.
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Recurso | Qué va a encontrar |
 | --- | --- |
-| [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Disponibilidad y metadatos del servidor MCP |
+| [Registro de Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Conectores administrados y detalles del servidor para determinados servidores MCP de Adobe |
 | [Documentación de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home){target="_blank"} | Documentación completa de la aplicación de Real-Time CDP |
