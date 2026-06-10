@@ -1,11 +1,11 @@
 ---
 title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
 
-Administrar entornos de Adobe Experience Manager suele significar iniciar sesión en Cloud Manager, navegar por canalizaciones y entornos y cambiar de contexto para realizar un seguimiento del estado de implementación. Este tutorial muestra cómo gestionar esas operaciones desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los desarrolladores y equipos de operaciones puedan comprobar el estado, revisar las canalizaciones y actuar en los detalles de implementación sin salir de su entorno de IA.
+La confianza de la implementación proviene de saber que su entorno está en buen estado antes de realizar la push. Este tutorial muestra cómo comprobar el estado del entorno de AEM, revisar el historial de canalización y las implementaciones de déclencheur desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los equipos puedan moverse rápidamente sin perder visibilidad.
 
 | Detalles del escenario | |
 | --- | --- |

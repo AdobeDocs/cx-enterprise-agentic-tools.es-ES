@@ -1,22 +1,22 @@
 ---
-title: Optimización del contenido en función de los datos de rendimiento
+title: Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 description: Utilice CJA y AEM juntos en una sesión de IA para encontrar campañas con brechas de conversión, diagnosticar la causa y actualizar el contenido sin cambiar de herramienta.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# Optimización del contenido en función de los datos de rendimiento
-<!-- last-modified: 2026-06-08 -->
+# Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
+<!-- last-modified: 2026-06-10 -->
 
 ![Cliente de IA que compara el contenido original y el actualizado de la página en paralelo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Normalmente, cerrar el bucle entre los datos de rendimiento de la campaña y las actualizaciones de contenido significa cambiar entre la herramienta de análisis y la CMS. Este tutorial muestra cómo conectar Customer Journey Analytics y AEM en la misma sesión de IA: superponga campañas con brechas de conversión, diagnostique lo que las impulsa, inspeccione el contenido, obtenga recomendaciones segmentadas y aplique cambios sin abandonar la conversación.
+Las brechas de rendimiento de contenido le cuestan a los resultados de las campañas, y cerrarlas suele significar cambiar entre la herramienta de análisis y el CMS. Este tutorial muestra cómo hacerlo en una sola sesión de IA: mostrar campañas con brechas de conversión en Customer Journey Analytics, diagnosticar la causa, inspeccionar el contenido de bajo rendimiento en AEM y aplicar actualizaciones sin abandonar la conversación.
 
 | Detalles del escenario | |
 | --- | --- |
