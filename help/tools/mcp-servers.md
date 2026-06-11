@@ -3,9 +3,9 @@ title: Servidores MCP
 description: Conecte cualquier cliente de IA compatible con MCP a los flujos de trabajo de Adobe CX Enterprise mediante los servidores de protocolo de contexto de modelo.
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
+source-git-commit: 47b960a7cf5790466a264d304f4d518f596ec78d
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Adobe Experience Manager tiene varios servidores MCP para diferentes flujos de t
 | [AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Administrar programas, entornos, canalizaciones y repositorios |
 | [Contenido de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Administrar páginas, fragmentos de contenido, recursos e inicios |
 | [Contenido de AEM (solo lectura)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Descubra y consulte páginas, fragmentos de contenido e inicios sin acceso de escritura |
-| Creación de documentos de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Administrar archivos, historial de versiones y referencias de medios en la creación de documentos |
+| [Creación de documentos de AEM](https://docs.da.live/about/early-access/da-mcp) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Administrar archivos, historial de versiones y referencias de medios en la creación de documentos |
 | [Gobernanza de AEM Experience](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Evaluar el contenido y las imágenes en función de las directrices de marca y las reglas de conformidad |
 | [Producción de AEM Experience](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transforme y cree páginas de AEM a escala mediante informes de contenido impulsados por IA |
 
