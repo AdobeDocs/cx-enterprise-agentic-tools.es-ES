@@ -5,8 +5,8 @@ index: false
 last-substantial-update: 2026-06-17T00:00:00Z
 source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
 workflow-type: tm+mt
-source-wordcount: '2074'
-ht-degree: 2%
+source-wordcount: '2290'
+ht-degree: 5%
 
 ---
 
@@ -25,9 +25,9 @@ Los servidores MCP de Adobe siguen el estándar [Model Context Protocol](https:/
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Enterprise MCP"
->abstract="Sus aplicaciones empresariales CX, accesibles a través de un único punto final MCP. Pregunte, analice y tome medidas en lenguaje sencillo de sus clientes de IA."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentación de CX Enterprise MCP"
+>title="MCP de CX Enterprise"
+>abstract="Sus aplicaciones de CX Enterprise, accesibles a través de un único punto final MCP. Pregunte, analice y tome medidas en lenguaje sencillo de sus clientes de IA."
+>additional-url="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentación de MCP de CX Enterprise"
 
 ![El MCP de CX Enterprise conecta su cliente de IA con las herramientas de todo el conjunto de aplicaciones empresariales de Adobe CX](../assets/mcp-gateway-hero.gif)
 
@@ -55,7 +55,7 @@ https://cx-enterprise.adobe.io/mcp
 | [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo-developer/marketo/mcp-server) | Administrar programas, campañas, posibles clientes, listas inteligentes, correos electrónicos y formularios |
 | [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Comprobar el estado de activación de audiencia, el estado de destino y el estado del flujo de datos |
 
-Para obtener toda la documentación, consulte [CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
+Para obtener toda la documentación, consulte [CX Enterprise MCP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
 >[!NOTE]
 >
@@ -305,7 +305,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Perspectivas de la campaña de Surface</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -328,7 +328,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Comprobar activación de audiencia</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -351,7 +351,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Supervise sus recorridos</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -374,7 +374,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Enviar contenido más rápido</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -397,7 +397,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Cerrar brechas de rendimiento</span>
-                </a>
+                
             </div>
         </div>
     </div>
