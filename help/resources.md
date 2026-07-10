@@ -2,10 +2,9 @@
 title: Recursos
 description: Un punto de entrada único para toda la documentación, los registros, las API y las guías para desarrolladores de Adobe CX Enterprise Agentic Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '555'
 ht-degree: 17%
 
 ---
@@ -33,7 +32,7 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 |---|---|
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guía de configuración y referencia de la herramienta del servidor CJA MCP |
 | [Guías de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guías de uso detalladas para el servidor MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
 
 ## Aptitudes de agente
 
