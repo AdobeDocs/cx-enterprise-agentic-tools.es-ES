@@ -2,8 +2,7 @@
 title: Ejecutar una revisión de campaña en canales múltiples
 description: Utilice CX Enterprise MCP en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%

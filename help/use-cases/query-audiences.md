@@ -2,8 +2,7 @@
 title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP para supervisar el estado de activación de la audiencia, comprobar el estado del destino y los problemas de superficie antes de que afecten a sus campañas.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%

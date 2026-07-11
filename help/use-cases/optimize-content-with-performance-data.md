@@ -2,8 +2,7 @@
 title: Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 description: Utilice CJA y AEM juntos en una sesión de IA para encontrar campañas con brechas de conversión, diagnosticar la causa y actualizar el contenido sin cambiar de herramienta.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -42,7 +41,7 @@ Conecte ambos servidores MCP como conectores personalizados. Añada cada uno por
 
 | Servidor | Punto de conexión |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de contenido de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuración completa: [Documentación de conectores personalizados Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +57,7 @@ Conecte ambos servidores MCP mediante el modo de desarrollador de ChatGPT (se re
 
 | Servidor | Punto de conexión |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de contenido de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +68,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 
 | Servidor | Punto de conexión |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Servidor MCP de contenido de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
