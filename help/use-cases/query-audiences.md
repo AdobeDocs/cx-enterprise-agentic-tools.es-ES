@@ -2,9 +2,9 @@
 title: Comprenda sus audiencias y dónde se activan
 description: Utilice CX Enterprise MCP para supervisar el estado de activación de la audiencia, comprobar el estado del destino y los problemas de superficie antes de que afecten a sus campañas.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Cliente de IA que proporciona una estrategia de audiencia priorizada con recomendaciones de activación](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![Cliente de IA que proporciona una estrategia de audiencia priorizada con recomendaciones de activación](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 Saber qué audiencias están activas, a dónde fluyen y si los destinos están en buen estado es fundamental antes de que se inicie una campaña o cuando el rendimiento de una es inferior al esperado. Este tutorial muestra cómo obtener una imagen completa de la activación mediante un cliente de IA, utilizando el MCP de CX Enterprise para mostrar el estado de la audiencia y el estado del destino en segundos, sin necesidad de abrir Real-Time CDP.
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que enumera las audiencias disponibles y los comportamientos de cliente que representan](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![Cliente de IA que enumera las audiencias disponibles y los comportamientos de cliente que representan](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que identifica las audiencias más grandes y explica qué las hace valiosas](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![Cliente de IA que identifica las audiencias más grandes y explica qué las hace valiosas](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el estado de activación de audiencia y la asignación de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![Cliente de IA que muestra el estado de activación de audiencia y la asignación de destino](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que proporciona recomendaciones de estrategia de audiencia priorizadas](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![Cliente de IA que proporciona recomendaciones de estrategia de audiencia priorizadas](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 

@@ -2,9 +2,9 @@
 title: Detecte los problemas de recorrido antes de que afecten a los clientes
 description: Utilice el MCP de CX Enterprise para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Detecte los problemas de recorrido antes de que afecten a los clientes
 <!-- last-modified: 2026-06-08 -->
 
-![Cliente de IA que resume la campaña y la estrategia de recorrido con un resumen ejecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![Cliente de IA que resume la campaña y la estrategia de recorrido con un resumen ejecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 Los problemas de recorrido que no se detectan pueden llegar a los clientes antes de que alguien se dé cuenta. Este tutorial muestra cómo adelantarse a ellos comprobando las recorridos activas de AJO, revisando la configuración de la campaña y mostrando los problemas operativos a través de un cliente de IA, utilizando CX Enterprise MCP para obtener respuestas en lenguaje sencillo sin necesidad de abrir Adobe Journey Optimizer.
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++Ver una respuesta de ejemplo
 
-![Clientes de IA que enumeran los recorridos de clientes disponibles y sus objetivos empresariales](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![Clientes de IA que enumeran los recorridos de clientes disponibles y sus objetivos empresariales](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA recorriendo los pasos del recorrido de bienvenida para nuevos clientes y la experiencia del cliente](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![Cliente de IA recorriendo los pasos del recorrido de bienvenida para nuevos clientes y la experiencia del cliente](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que enumera campañas activas con su segmentación de audiencia y resultados previstos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![Cliente de IA que enumera campañas activas con su segmentación de audiencia y resultados previstos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que explica la relación entre campañas y recorridos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![Cliente de IA que explica la relación entre campañas y recorridos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que proporciona recomendaciones de marketing de ciclo vital con prioridad](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![Cliente de IA que proporciona recomendaciones de marketing de ciclo vital con prioridad](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 

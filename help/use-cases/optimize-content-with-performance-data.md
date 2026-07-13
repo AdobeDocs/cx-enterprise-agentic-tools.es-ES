@@ -2,9 +2,9 @@
 title: Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 description: Utilice CJA y AEM juntos en una sesión de IA para encontrar campañas con brechas de conversión, diagnosticar la causa y actualizar el contenido sin cambiar de herramienta.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,14 +13,16 @@ ht-degree: 2%
 # Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 <!-- last-modified: 2026-06-10 -->
 
-![Cliente de IA que compara el contenido original y el actualizado de la página en paralelo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![Cliente de IA que compara el contenido original y el actualizado de la página en paralelo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 Las brechas de rendimiento de contenido le cuestan a los resultados de las campañas, y cerrarlas suele significar cambiar entre la herramienta de análisis y el CMS. Este tutorial muestra cómo hacerlo en una sola sesión de IA: mostrar campañas con brechas de conversión en Customer Journey Analytics, diagnosticar la causa, inspeccionar el contenido de bajo rendimiento en AEM y aplicar actualizaciones sin abandonar la conversación.
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Herramientas agénticas | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [servidor MCP de contenido AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Aplicaciones empresariales de CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Herramientas agénticas | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [servidor MCP de contenido AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Público | Administradores de campañas, estrategas de contenido, operaciones de marketing |
 | Requisito previo | cliente de IA compatible con MCP, acceso a CJA, acceso a AEM as a Cloud Service |
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Ver una respuesta de ejemplo
 
-![Campañas de cliente de IA que muestran clics altos, pero conversión baja desde CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![Campañas de cliente de IA que muestran clics altos, pero conversión baja desde CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que diagnostica la caída de conversión por dispositivo, segmento y factores de contenido](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![Cliente de IA que diagnostica la caída de conversión por dispositivo, segmento y factores de contenido](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el contenido actual de la página de aterrizaje de AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![Cliente de IA que muestra el contenido actual de la página de aterrizaje de AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que identifica secciones de contenido de bajo rendimiento y recomienda cambios específicos](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![Cliente de IA que identifica secciones de contenido de bajo rendimiento y recomienda cambios específicos](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que crea una versión optimizada de la página y resume los cambios](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![Cliente de IA que crea una versión optimizada de la página y resume los cambios](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 

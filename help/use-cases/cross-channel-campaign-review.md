@@ -2,9 +2,9 @@
 title: Ejecutar una revisión de campaña en canales múltiples
 description: Utilice CX Enterprise MCP en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1415'
 ht-degree: 5%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![Ejecutar una revisión de campaña en canales múltiples](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![Ejecutar una revisión de campaña en canales múltiples](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 Una imagen completa del estado de la campaña requiere datos de varios sistemas: recorridos activos de AJO, estado de activación de audiencia de Real-Time CDP y métricas de rendimiento de CJA. Este tutorial muestra cómo conectar los tres elementos en una sola sesión de IA para que pueda pasar del estado del recorrido al estado de la audiencia y las tendencias de rendimiento en una conversación en lugar de usar tres herramientas independientes.
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
+| Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
 | Herramientas agénticas | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Público | Administradores de campañas, operaciones de marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
