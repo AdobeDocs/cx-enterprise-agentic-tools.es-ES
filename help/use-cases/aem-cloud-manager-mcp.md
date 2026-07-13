@@ -2,9 +2,9 @@
 title: Implementar en AEM as a Cloud Service con confianza
 description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el estado del entorno de producción de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+![Cliente de IA que muestra el estado del entorno de producción de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra las últimas cinco ejecuciones de canalización para la canalización de producción](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+![Cliente de IA que muestra las últimas cinco ejecuciones de canalización para la canalización de producción](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra confirmación de déclencheur de canalización e IU de Cloud Manager que refleja la canalización en ejecución](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+![Cliente de IA que muestra confirmación de déclencheur de canalización e IU de Cloud Manager que refleja la canalización en ejecución](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el estado de la ejecución de canalización desencadenada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+![Cliente de IA que muestra el estado de la ejecución de canalización desencadenada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 

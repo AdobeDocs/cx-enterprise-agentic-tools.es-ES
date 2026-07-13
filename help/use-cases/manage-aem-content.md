@@ -2,10 +2,10 @@
 title: Mantener el contenido actualizado y enviar actualizaciones más rápido
 description: Utilice AEM Content MCP Server para buscar, revisar, actualizar y publicar contenido de AEM sin cambiar entre herramientas.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '1001'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 Mantener actualizado el contenido del sitio web es una presión operativa constante. Este tutorial muestra cómo los equipos de contenido pueden buscar, revisar, actualizar y publicar páginas y fragmentos de contenido de AEM a través de un cliente de IA, utilizando el servidor MCP de contenido de AEM para reducir el tiempo entre una decisión de contenido y una actualización activa.
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra resultados de búsqueda de contenido de esquí del entorno WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![Cliente de IA que muestra resultados de búsqueda de contenido de esquí del entorno WKND Dev AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra la estructura de contenido de la página principal en inglés de EE. UU. de AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![Cliente de IA que muestra la estructura de contenido de la página principal en inglés de EE. UU. de AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que propone una copia de Hero CTA mejorada con un mensaje de confirmación antes de aplicar los cambios](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![Cliente de IA que propone una copia de Hero CTA mejorada con un mensaje de confirmación antes de aplicar los cambios](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![Cliente de IA que confirma que la página se publicó y devuelve la dirección URL activa](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 

@@ -2,9 +2,9 @@
 title: Perspectivas de campañas de superficie sin crear informes
 description: Utilice el MCP de CX Enterprise para hacer preguntas de rendimiento de Customer Journey Analytics en lenguaje sencillo y obtener respuestas sin tener que navegar por los Report Builder.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-02 -->
 
-![Cliente de IA que muestra los siguientes pasos recomendados para mejorar el rendimiento de la campaña](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
+![Cliente de IA que muestra los siguientes pasos recomendados para mejorar el rendimiento de la campaña](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 El análisis de campañas que antes requería crear informes en una herramienta independiente ahora es una conversación. Este tutorial muestra cómo conectar un cliente de IA a Customer Journey Analytics (CJA) y hacer preguntas de rendimiento en lenguaje sencillo. El resultado es un tiempo de ejecución de insight más rápido, sin necesidad de generar informes manualmente.
 
@@ -82,7 +84,9 @@ What data views are available in my CJA account?
 
 +++Ver una respuesta de ejemplo
 
-![Vista de datos de CJA disponible en la lista de clientes de IA](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+![Vista de datos de CJA disponible en la lista de clientes de IA](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -97,7 +101,9 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra las principales campañas por ingresos y tasa de conversión desde la vista de datos omnicanal - de múltiples industrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+![Cliente de IA que muestra las principales campañas por ingresos y tasa de conversión desde la vista de datos omnicanal - de múltiples industrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -116,7 +122,9 @@ What factors are driving the results for these campaign groups?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que explica los factores que impulsan el rendimiento del grupo de campañas](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+![Cliente de IA que explica los factores que impulsan el rendimiento del grupo de campañas](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -131,7 +139,9 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++Ver una respuesta de ejemplo
 
-![El cliente de IA desglosa el rendimiento de la campaña de correo electrónico promocional por segmento de cliente](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+![El cliente de IA desglosa el rendimiento de la campaña de correo electrónico promocional por segmento de cliente](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
@@ -146,7 +156,9 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que recomienda acciones priorizadas con valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+![Cliente de IA que recomienda acciones priorizadas con valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+
+*Seleccionar para ampliar/reducir.*
 
 +++
 
