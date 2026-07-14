@@ -1,8 +1,8 @@
 ---
 title: Herramientas de agencia empresarial de Adobe CX
 description: Conecte los agentes de IA y las herramientas de desarrollo a las capacidades empresariales de Adobe CX mediante servidores MCP, habilidades de agente y API.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491245/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Permita que la IA se convierta en su colaborador para Adobe CX Enterprise. Conecte su cliente de IA a campañas, audiencias, recorridos y contenido. Interactúe con ellos en lenguaje sencillo desde cualquier herramienta que ya utilice. No se necesitan nuevas interfaces, no se cambia el contexto ni se codifica para comenzar.
 
 >[!TIP]
->**Comience con CX Enterprise MCP.** Una conexión proporciona a su cliente de IA acceso a Adobe Journey Optimizer, Customer Journey Analytics y Real-Time CDP en función de las licencias de su organización. [Conectar ahora](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Comience con CX Coworker Gateway.** Una conexión proporciona a su cliente de IA acceso a Adobe Journey Optimizer, Customer Journey Analytics y Real-Time CDP en función de las licencias de su organización. [Conectar ahora](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB Servidores MCP]
 
-Utilice cualquier cliente de IA compatible para acceder a las aplicaciones de CX Enterprise en lenguaje sencillo. No se requiere codificación. Comience con CX Enterprise MCP para obtener una única conexión a AJO, CJA y Real-Time CDP, o conéctese directamente a AEM y otras aplicaciones.
+Utilice cualquier cliente de IA compatible para acceder a las aplicaciones de CX Enterprise en lenguaje sencillo. No se requiere codificación. Comience con CX Coworker Gateway para obtener una única conexión a AJO, CJA y Real-Time CDP, o conéctese directamente a AEM y otras aplicaciones.
 
 - Conéctese en minutos con Claude, Cursor, ChatGPT y otros clientes compatibles con MCP
 - Consulta de campañas, audiencias y datos de recorrido mediante lenguaje natural
