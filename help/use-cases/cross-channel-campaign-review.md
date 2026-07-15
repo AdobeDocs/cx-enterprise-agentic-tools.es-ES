@@ -1,8 +1,8 @@
 ---
 title: Ejecutar una revisión de campaña en canales múltiples
-description: Utilice CX Enterprise MCP en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Utilice CX Coworker Gateway en una sola sesión de IA para obtener una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Una imagen completa del estado de la campaña requiere datos de varios sistemas:
 | Detalles del escenario | |
 | --- | --- |
 | Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
-| Herramientas agénticas | [MCP de CX Enterprise](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Herramientas agénticas | [Puerta de enlace de CX Coworker](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Público | Administradores de campañas, operaciones de marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
 
@@ -35,31 +35,31 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!TAB Claude.ai]
 
-Conecte CX Enterprise MCP como un conector personalizado. Una conexión le permite acceder a las herramientas de AJO, CJA y Real-Time CDP.
+Conecte CX Coworker Gateway como un conector personalizado. Una conexión le permite acceder a las herramientas de AJO, CJA y Real-Time CDP.
 
 1. Vaya a **Configuración > Integraciones** en Claude.ai.
-2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://cx-enterprise.adobe.io/mcp`
+2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 3. Seleccione **Conectar** e inicie sesión con su Adobe ID.
 
 Configuración completa: [Documentación de conectores personalizados Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Conecte el MCP de CX Enterprise mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, empresarial o educativo).
+Conecte CX Coworker Gateway mediante el modo para desarrolladores de ChatGPT (se requiere plan profesional, avanzado, empresarial, o educativo).
 
 1. Habilitar **Modo de desarrollador** en **Configuración de ChatGPT**.
 2. Vaya a **Configuración > Integraciones** y seleccione **Agregar conector personalizado > Servidor MCP remoto**.
-3. Escriba la dirección URL del servidor: `https://cx-enterprise.adobe.io/mcp`
+3. Escriba la dirección URL del servidor: `https://cx-coworker-gateway.adobe.io/mcp`
 4. Seleccione **Conectar** e inicie sesión con su Adobe ID.
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Otros clientes de IA]
 
-¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Enterprise MCP utilizando este punto de conexión:
+¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Coworker Gateway mediante este punto final:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
