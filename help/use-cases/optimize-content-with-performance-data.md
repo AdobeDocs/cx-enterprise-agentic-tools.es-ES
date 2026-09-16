@@ -19,7 +19,7 @@ Las brechas de rendimiento de contenido le cuestan a los resultados de las campa
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Aplicaciones empresariales de CX | [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
 | Herramientas agénticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) y [AEM MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Público | Administradores de campañas, estrategas de contenido, operaciones de marketing |
 | Requisito previo | cliente de IA compatible con MCP, acceso a CJA, acceso a AEM as a Cloud Service |
