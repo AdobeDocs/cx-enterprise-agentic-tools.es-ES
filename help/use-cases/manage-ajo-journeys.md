@@ -1,14 +1,12 @@
 ---
 title: Detecte los problemas de recorrido antes de que afecten a los clientes
-description: Utilice CX Coworker Gateway para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a su audiencia.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Utilice el servidor MCP de Adobe Journey Optimizer para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a la audiencia.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 2%
-
+source-wordcount: '1071'
+ht-degree: 4%
 ---
-
 
 # Detecte los problemas de recorrido antes de que afecten a los clientes
 <!-- last-modified: 2026-06-08 -->
@@ -17,12 +15,12 @@ ht-degree: 2%
 
 *Seleccionar para ampliar/reducir.*
 
-Los problemas de recorrido que no se detectan pueden llegar a los clientes antes de que alguien se dé cuenta. Este tutorial muestra cómo adelantarse a ellos comprobando las recorridos activas de AJO, revisando la configuración de la campaña y mostrando los problemas operativos a través de un cliente de IA, utilizando CX Coworker Gateway para obtener respuestas en lenguaje sencillo sin necesidad de abrir Adobe Journey Optimizer.
+Los problemas de recorrido que no se detectan pueden llegar a los clientes antes de que alguien se dé cuenta. Este tutorial muestra cómo adelantarse a ellos comprobando las recorridos activas de AJO, revisando la configuración de la campaña y mostrando los problemas operativos a través de un cliente de IA, utilizando el servidor MCP de Adobe Journey Optimizer para obtener respuestas en lenguaje sencillo sin abrir Adobe Journey Optimizer.
 
 | Detalles del escenario | |
 | --- | --- |
 | Aplicaciones empresariales de CX | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
-| Herramientas agénticas | [Puerta de enlace de CX Coworker](../tools/mcp-servers.md#cx-coworker-gateway) |
+| Herramientas agénticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [servidor MCP de Adobe Journey Optimizer](../tools/mcp-servers.md) |
 | Público | Administradores de campañas, especialistas en marketing |
 | Requisito previo | Cliente de IA compatible con MCP, acceso a AJO |
 
@@ -33,33 +31,39 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+La forma más rápida de obtener estas respuestas es CX Enterprise Coworker, que no requiere ninguna configuración del servidor ni de cliente de IA. [Probar CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+
+Si prefiere conectar su propio cliente de IA directamente a Adobe Journey Optimizer, consulte las pestañas a continuación.
+
 >[!TAB Claude.ai]
 
-Conecte CX Coworker Gateway como un conector personalizado para acceder a las herramientas de Adobe Journey Optimizer.
+Conecte el servidor MCP de Adobe Journey Optimizer como un conector personalizado.
 
 1. Vaya a **Configuración > Integraciones** en Claude.ai.
-2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://cx-coworker-gateway.adobe.io/mcp`
+2. Seleccione **Agregar conector personalizado** e introduzca la dirección URL del servidor: `https://ajo-mcp.adobe.io/mcp`
 3. Seleccione **Conectar** e inicie sesión con su Adobe ID.
 
 Configuración completa: [Documentación de conectores personalizados Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Conecte CX Coworker Gateway mediante el modo para desarrolladores de ChatGPT (se requiere plan profesional, avanzado, empresarial, o educativo).
+Conecte el servidor MCP de Adobe Journey Optimizer mediante el modo de desarrollador de ChatGPT (se requiere plan profesional, avanzado, empresarial, o educativo).
 
 1. Habilitar **Modo de desarrollador** en **Configuración de ChatGPT**.
 2. Vaya a **Configuración > Integraciones** y seleccione **Agregar conector personalizado > Servidor MCP remoto**.
-3. Escriba la dirección URL del servidor: `https://cx-coworker-gateway.adobe.io/mcp`
+3. Escriba la dirección URL del servidor: `https://ajo-mcp.adobe.io/mcp`
 4. Seleccione **Conectar** e inicie sesión con su Adobe ID.
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Otros clientes de IA]
 
-¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a CX Coworker Gateway mediante este punto final:
+¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese al servidor MCP de Adobe Journey Optimizer mediante este extremo:
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://ajo-mcp.adobe.io/mcp
 ```
 
 Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
@@ -180,7 +184,7 @@ Ha conectado un cliente de IA a Adobe Journey Optimizer y ha creado una imagen c
 
 ## Más cosas que puede lograr
 
-CX Coworker Gateway le ofrece una amplia gama de recorridos y campañas de AJO. Expanda un escenario de abajo para ver las indicaciones que puede probar en la misma sesión.
+El servidor MCP de Adobe Journey Optimizer puede mostrar una amplia gama de detalles de recorrido y campaña de AJO. Expanda un escenario de abajo para ver las indicaciones que puede probar en la misma sesión.
 
 +++Sepa lo que está activo antes de hacer un cambio
 
