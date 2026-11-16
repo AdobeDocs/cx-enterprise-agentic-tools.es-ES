@@ -39,7 +39,7 @@ Si no puede o no quiere usar Coworker directamente, utilícelo desde su propia p
 
 >[!TAB Colaborador para plataformas de IA]
 
-También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/es/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
