@@ -1,28 +1,28 @@
 ---
 title: Detecte los problemas de recorrido antes de que afecten a los clientes
 description: Utilice el servidor MCP de Adobe Journey Optimizer para monitorizar los recorridos activos de AJO, revisar la configuración de la campaña y los problemas operativos antes de que lleguen a la audiencia.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1158'
+ht-degree: 3%
 ---
 
 # Detecte los problemas de recorrido antes de que afecten a los clientes
 <!-- last-modified: 2026-06-08 -->
 
-![Cliente de IA que resume la campaña y la estrategia de recorrido con un resumen ejecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+![Plataforma de IA que resume la campaña y la estrategia de recorrido con un resumen ejecutivo](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
-Los problemas de recorrido que no se detectan pueden llegar a los clientes antes de que alguien se dé cuenta. Este tutorial muestra cómo adelantarse a ellos comprobando las recorridos activas de AJO, revisando la configuración de la campaña y mostrando los problemas operativos a través de un cliente de IA, utilizando el servidor MCP de Adobe Journey Optimizer para obtener respuestas en lenguaje sencillo sin abrir Adobe Journey Optimizer.
+Los problemas de recorrido que no se detectan pueden llegar a los clientes antes de que alguien se dé cuenta. Este tutorial muestra cómo adelantarse a ellos comprobando las recorridos activas de AJO, revisando la configuración de la campaña y mostrando los problemas operativos a través de una plataforma de IA, utilizando el servidor MCP de Adobe Journey Optimizer para obtener respuestas en un lenguaje sencillo sin necesidad de abrir Adobe Journey Optimizer.
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
-| Herramientas agénticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [servidor MCP de Adobe Journey Optimizer](../tools/mcp-servers.md) |
+| Aplicaciones de CX Enterprise | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home) |
+| Herramientas agénticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Adobe Journey Optimizer MCP Server](../tools/mcp-servers.md) |
 | Público | Administradores de campañas, especialistas en marketing |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AJO |
+| Requisito previo | Acceso a AJO, además de Coworker, una plataforma de IA con Coworker para plataformas de IA o una plataforma de IA compatible con MCP |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -31,11 +31,15 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-La forma más rápida de obtener estas respuestas es CX Enterprise Coworker, que no requiere ninguna configuración del servidor ni de cliente de IA. [Probar CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+La forma más rápida de obtener estas respuestas es mediante Coworker, que no requiere ninguna configuración del servidor ni de la plataforma de IA. [Probar con el compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
 
-Si prefiere conectar su propio cliente de IA directamente a Adobe Journey Optimizer, consulte las pestañas a continuación.
+Si no puede o no quiere usar Coworker directamente, utilícelo desde su propia plataforma de IA en su lugar. Consulte la ficha **Colaborador para plataformas de IA**. Si esto tampoco funciona para usted, conecte su plataforma de IA directamente al servidor MCP de Adobe Journey Optimizer usando las pestañas restantes.
+
+>[!TAB Colaborador para plataformas de IA]
+
+También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Conecte el servidor MCP de Adobe Journey Optimizer mediante el modo de desarroll
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Otros clientes de IA]
+>[!TAB Otras plataformas de IA]
 
 ¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese al servidor MCP de Adobe Journey Optimizer mediante este extremo:
 
@@ -66,7 +70,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 https://ajo-mcp.adobe.io/mcp
 ```
 
-Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
+Instrucciones de configuración completas para todas las plataformas de IA compatibles: [Conéctese a su plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,7 +78,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a su entorno de AJO. La elección de una organización incorrecta es la fuente más común de errores de autenticación.
 >
->En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
+>En la primera conexión, la plataforma de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
@@ -89,7 +93,7 @@ What customer journeys are currently available and what business objectives do t
 
 +++Ver una respuesta de ejemplo
 
-![Clientes de IA que enumeran los recorridos de clientes disponibles y sus objetivos empresariales](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+![La plataforma de IA enumera los recorridos de clientes disponibles y sus objetivos empresariales](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -99,7 +103,7 @@ What customer journeys are currently available and what business objectives do t
 
 ## Paso 2: Revisar los pasos y la experiencia del cliente de un recorrido
 
-Con la lista de recorridos a la vista, pida a su cliente de IA que siga los pasos de un recorrido específico y explique lo que el cliente experimenta en cada fase.
+Con la lista de recorridos a la vista, pídale a su plataforma de IA que siga los pasos de un recorrido específico y explique lo que el cliente experimenta en cada fase.
 
 ```
 Walk me through the [journey name] journey and explain the customer experience.
@@ -107,7 +111,7 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA recorriendo los pasos del recorrido de bienvenida para nuevos clientes y la experiencia del cliente](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+![Plataforma de IA recorriendo los pasos del recorrido de bienvenida para nuevos clientes y la experiencia del cliente](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -129,7 +133,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que enumera campañas activas con su segmentación de audiencia y resultados previstos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+![Plataforma de IA que enumera campañas activas con su segmentación de audiencia y resultados previstos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -139,7 +143,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 ## Paso 4: Comprender cómo se conectan las campañas y los recorridos
 
-Pida a su cliente de IA que conecte los puntos entre campañas y recorridos, y que le explique cómo trabajan juntos para lograr objetivos de participación compartidos.
+Pida a su plataforma de IA que conecte los puntos entre campañas y recorridos, y que le explique cómo trabajan juntos para lograr objetivos de participación compartidos.
 
 ```
 How do our campaigns and journeys work together to improve customer engagement?
@@ -147,7 +151,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que explica la relación entre campañas y recorridos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+![Plataforma de IA que explica la relación entre campañas y recorridos](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -165,7 +169,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que proporciona recomendaciones de marketing de ciclo vital con prioridad](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+![Plataforma de IA que proporciona recomendaciones de marketing de ciclo vital con prioridad](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -179,7 +183,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## Lo que ha conseguido
 
-Ha conectado un cliente de IA a Adobe Journey Optimizer y ha creado una imagen completa de su catálogo de recorridos y campañas con cinco mensajes. Ha inventariado los recorridos activos y sus objetivos comerciales, ha revisado paso a paso la experiencia del cliente para un recorrido específico, ha asignado campañas activas a sus audiencias y resultados previstos, ha comprendido cómo funcionan juntas las campañas y los recorridos, y ha recibido recomendaciones priorizadas sobre dónde centrarse a continuación. Esto proporciona a los administradores de campañas y marketing del ciclo vital visibilidad estratégica sin abrir la interfaz de AJO.
+Ha utilizado Coworker o su plataforma de IA con Adobe Journey Optimizer y ha creado una imagen completa de su catálogo de recorridos y campañas a través de cinco mensajes. Ha inventariado los recorridos activos y sus objetivos comerciales, ha revisado paso a paso la experiencia del cliente para un recorrido específico, ha asignado campañas activas a sus audiencias y resultados previstos, ha comprendido cómo funcionan juntas las campañas y los recorridos, y ha recibido recomendaciones priorizadas sobre dónde centrarse a continuación. Esto proporciona a los administradores de campañas y marketing del ciclo vital visibilidad estratégica sin abrir la interfaz de AJO.
 
 
 ## Más cosas que puede lograr

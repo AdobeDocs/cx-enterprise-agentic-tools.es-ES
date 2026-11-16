@@ -1,10 +1,10 @@
 ---
 title: Perspectivas de campañas de superficie sin crear informes
 description: Utilice el servidor MCP de Customer Journey Analytics para hacer preguntas de rendimiento en lenguaje sencillo y obtener respuestas sin necesidad de navegar por los Report Builder.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1169'
 ht-degree: 3%
 ---
 
@@ -12,18 +12,18 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-02 -->
 
-![Cliente de IA que muestra los siguientes pasos recomendados para mejorar el rendimiento de la campaña](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+![Plataforma de IA que muestra los siguientes pasos recomendados para mejorar el rendimiento de la campaña](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
-El análisis de campañas que antes requería crear informes en una herramienta independiente ahora es una conversación. Este tutorial muestra cómo conectar un cliente de IA a Customer Journey Analytics (CJA) y hacer preguntas de rendimiento en lenguaje sencillo. El resultado es un tiempo de ejecución de insight más rápido, sin necesidad de generar informes manualmente.
+El análisis de campañas que antes requería crear informes en una herramienta independiente ahora es una conversación. Este tutorial muestra cómo utilizar Coworker, o su propia plataforma de IA, con Customer Journey Analytics (CJA) y hacer preguntas de rendimiento en lenguaje sencillo. El resultado es un tiempo de ejecución de insight más rápido, sin necesidad de generar informes manualmente.
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Herramientas agénticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [servidor MCP de Customer Journey Analytics](../tools/mcp-servers.md) |
+| Aplicaciones de CX Enterprise | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Herramientas agénticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | Público | Analistas, administradores de campañas |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a CJA |
+| Requisito previo | Acceso a CJA, además de Coworker, una plataforma de IA con Coworker para plataformas de IA o una plataforma de IA compatible con MCP |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -31,11 +31,15 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-La forma más rápida de obtener estas respuestas es CX Enterprise Coworker, que no requiere ninguna configuración del servidor ni de cliente de IA. [Probar CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+La forma más rápida de obtener estas respuestas es mediante Coworker, que no requiere ninguna configuración del servidor ni de la plataforma de IA. [Probar con el compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
 
-Si prefiere conectar su propio cliente de IA directamente a Customer Journey Analytics, consulte las pestañas a continuación.
+Si no puede o no quiere usar Coworker directamente, utilícelo desde su propia plataforma de IA en su lugar. Consulte la ficha **Colaborador para plataformas de IA**. Si esto tampoco funciona para usted, conecte su plataforma de IA directamente al servidor MCP de Customer Journey Analytics usando las pestañas restantes.
+
+>[!TAB Colaborador para plataformas de IA]
+
+También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Conecte el servidor MCP de Customer Journey Analytics mediante el modo de desarr
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Otros clientes de IA]
+>[!TAB Otras plataformas de IA]
 
 ¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese al servidor MCP de Customer Journey Analytics mediante este extremo:
 
@@ -66,7 +70,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 https://cja-mcp.adobe.io/mcp
 ```
 
-Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
+Instrucciones de configuración completas para todas las plataformas de IA compatibles: [Conéctese a su plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,13 +78,13 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a sus vistas de datos de CJA. La elección de una organización incorrecta es la fuente más común de errores de autenticación.
 >
->En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
+>En la primera conexión, la plataforma de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
 ## Paso 1: Descubra las vistas de datos disponibles
 
-Comience por pedirle a su cliente de IA que enumere las vistas de datos disponibles en su cuenta de CJA. Esto indica a qué conjuntos de datos puede consultar antes de ejecutar cualquier informe.
+Comience por pedirle a su plataforma de IA que enumere las vistas de datos disponibles en su cuenta de CJA. Esto indica a qué conjuntos de datos puede consultar antes de ejecutar cualquier informe.
 
 ```
 What data views are available in my CJA account?
@@ -88,7 +92,7 @@ What data views are available in my CJA account?
 
 +++Ver una respuesta de ejemplo
 
-![Vista de datos de CJA disponible en la lista de clientes de IA](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![Vistas de datos de CJA disponibles en el listado de la plataforma AI](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -105,7 +109,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra las principales campañas por ingresos y tasa de conversión desde la vista de datos omnicanal - de múltiples industrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+![Plataforma de IA que muestra las principales campañas según los ingresos y la tasa de conversión de la vista de datos omnicanal - de varias industrias](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -118,7 +122,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 ## Paso 3: Identificar qué es lo que impulsa el rendimiento
 
-Pida a su cliente de IA que le explique qué es lo que impulsa las diferencias de rendimiento entre grupos de campañas. Esto pasa de los números de titulares a las variables subyacentes.
+Solicite a su plataforma de IA que explique qué es lo que impulsa las diferencias de rendimiento entre grupos de campañas. Esto pasa de los números de titulares a las variables subyacentes.
 
 ```
 What factors are driving the results for these campaign groups?
@@ -126,7 +130,7 @@ What factors are driving the results for these campaign groups?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que explica los factores que impulsan el rendimiento del grupo de campañas](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![Plataforma de IA que explica los factores que impulsan el rendimiento del grupo de campañas](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -143,7 +147,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++Ver una respuesta de ejemplo
 
-![El cliente de IA desglosa el rendimiento de la campaña de correo electrónico promocional por segmento de cliente](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+![La plataforma de IA desglosa el rendimiento de la campaña de correo electrónico promocional por segmento de cliente](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -160,7 +164,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que recomienda acciones priorizadas con valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![Plataforma de IA que recomienda acciones priorizadas con valor comercial estimado](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -173,7 +177,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## Lo que ha conseguido
 
-Ha conectado un cliente de IA a Customer Journey Analytics y ha pasado de la detección de vistas de datos a las recomendaciones empresariales priorizadas en cinco mensajes. Ha identificado las campañas principales por ingresos y tasa de conversión, ha descubierto los factores que impulsan el rendimiento en los grupos de campañas, ha profundizado en los detalles de nivel de segmento para un tipo de campaña específico y ha recibido recomendaciones de clasificación con un aumento estimado. Este enfoque reemplaza la creación de informes con una conversación directa, lo que reduce el tiempo entre una pregunta comercial y un plan de acción respaldado por datos.
+Utilizó Coworker o su plataforma de IA con Customer Journey Analytics y pasó de la detección de vistas de datos a las recomendaciones empresariales priorizadas en cinco mensajes. Ha identificado las campañas principales por ingresos y tasa de conversión, ha descubierto los factores que impulsan el rendimiento en los grupos de campañas, ha profundizado en los detalles de nivel de segmento para un tipo de campaña específico y ha recibido recomendaciones de clasificación con un aumento estimado. Este enfoque reemplaza la creación de informes con una conversación directa, lo que reduce el tiempo entre una pregunta comercial y un plan de acción respaldado por datos.
 
 ## Más cosas que puede lograr
 

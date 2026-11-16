@@ -1,17 +1,17 @@
 ---
 title: Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 description: Utilice CJA y AEM juntos en una sesión de IA para encontrar campañas con brechas de conversión, diagnosticar la causa y actualizar el contenido sin cambiar de herramienta.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 6%
+source-wordcount: '1233'
+ht-degree: 5%
 ---
 
 # Cerrar las brechas de rendimiento de contenido con actualizaciones impulsadas por datos
 <!-- last-modified: 2026-06-10 -->
 
-![Cliente de IA que compara el contenido original y el actualizado de la página en paralelo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![Plataforma de IA que compara el contenido original y actualizado de la página en paralelo](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -19,10 +19,10 @@ Las brechas de rendimiento de contenido le cuestan a los resultados de las campa
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Herramientas agénticas | [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) y [AEM MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| Aplicaciones de CX Enterprise | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Herramientas agénticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) y [AEM MCP Server](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Público | Administradores de campañas, estrategas de contenido, operaciones de marketing |
-| Requisito previo | cliente de IA compatible con MCP, acceso a CJA, acceso a AEM as a Cloud Service |
+| Requisito previo | Acceso a CJA, acceso a AEM as a Cloud Service y Coworker, una plataforma de IA con Coworker para plataformas de IA o una plataforma de IA compatible con MCP |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -31,11 +31,15 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker abarca todo este tutorial, sin necesidad de configurar el servidor. [Probar CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+El colaborador cubre todo este tutorial, sin necesidad de configurar el servidor. [Probar con el compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
 
-Si prefiere conectar su propio cliente de IA directamente, conecte ambos servidores MCP con las pestañas de abajo.
+Si no puede o no quiere usar Coworker directamente, utilícelo desde su propia plataforma de IA en su lugar. Consulte la ficha **Colaborador para plataformas de IA**. Si esto tampoco funciona para usted, conecte su plataforma de IA directamente a los servidores MCP de Customer Journey Analytics y AEM usando las pestañas restantes.
+
+>[!TAB Colaborador para plataformas de IA]
+
+También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -68,7 +72,7 @@ Conecte ambos servidores MCP mediante el modo de desarrollador de ChatGPT (se re
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Otros clientes de IA]
+>[!TAB Otras plataformas de IA]
 
 ¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a ambos servidores MCP mediante estos extremos:
 
@@ -77,7 +81,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 | Servidor MCP de Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
 | Servidor MCP de AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
+Instrucciones de configuración completas para todas las plataformas de IA compatibles: [Conéctese a su plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -85,7 +89,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a sus entornos de CJA y AEM. La elección de una organización incorrecta es la fuente más común de errores de autenticación.
 >
->En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
+>En la primera conexión, la plataforma de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
@@ -100,7 +104,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Ver una respuesta de ejemplo
 
-![Campañas de cliente de IA que muestran clics altos, pero conversión baja desde CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![Campañas de plataformas IA que muestran una alta proporción de clics, pero una baja conversión desde CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -118,7 +122,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que diagnostica la caída de conversión por dispositivo, segmento y factores de contenido](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![Plataforma de IA que diagnostica la lista desplegable de conversión por dispositivo, segmento y factores de contenido](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -136,7 +140,7 @@ Show me the Bali Surf Camp page.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el contenido actual de la página de aterrizaje de AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+![Plataforma de IA que muestra el contenido actual de la página de aterrizaje de AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -146,7 +150,7 @@ Show me the Bali Surf Camp page.
 
 ## Paso 4: Obtener recomendaciones específicas
 
-Solicite a su cliente de IA que conecte los datos mostrados con lo que figura en la página. La inteligencia artificial justifica en ambas fuentes la identificación de qué secciones de contenido son las causantes probables de la entrega y qué cambiar.
+Solicite a su plataforma de IA que conecte los datos mostrados con los que aparecen en la página. La inteligencia artificial justifica en ambas fuentes la identificación de qué secciones de contenido son las causantes probables de la entrega y qué cambiar.
 
 ```
 Which content sections are underperforming, and what changes would you recommend?
@@ -154,7 +158,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que identifica secciones de contenido de bajo rendimiento y recomienda cambios específicos](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+![Plataforma de IA que identifica secciones de contenido de bajo rendimiento y recomienda cambios específicos](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -164,7 +168,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 ## Paso 5: Aplicar y revisar los cambios
 
-Solicite a su cliente de IA que cree una versión optimizada de la página en función de las recomendaciones y que resuma qué ha cambiado y por qué.
+Solicite a su plataforma de IA que cree una versión optimizada de la página en función de las recomendaciones y resuma qué ha cambiado y por qué.
 
 ```
 Create an optimized version of the Bali Surf Camp page and summarize the proposed changes.
@@ -172,7 +176,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que crea una versión optimizada de la página y resume los cambios](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+![Plataforma de IA que crea una versión optimizada de la página y resume los cambios](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
