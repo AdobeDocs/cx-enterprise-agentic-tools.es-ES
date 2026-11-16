@@ -1,14 +1,12 @@
 ---
 title: Recursos
-description: Un punto de entrada único para toda la documentación, los registros, las API y las guías para desarrolladores de Adobe CX Enterprise Agentic Tools.
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+description: Un único punto de entrada para toda la documentación, los registros, las API y las guías para desarrolladores de Adobe CX Enterprise Agentic Tools.
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 17%
-
+source-wordcount: '591'
+ht-degree: 19%
 ---
-
 
 # Recursos
 
@@ -16,7 +14,7 @@ ht-degree: 17%
 
 ![Recursos](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
-Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic Tools, en un solo lugar.
+Todos los recursos clave de Adobe para trabajar con las herramientas de Adobe CX Enterprise Agentic en un solo lugar.
 
 ## Registros y catálogos
 
@@ -30,9 +28,10 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 
 | Recurso | Qué va a encontrar |
 |---|---|
+| [Adobe CX Enterprise Coworker para plataformas de IA](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | Requisitos previos y configuración para utilizar Coworker de Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise y otras plataformas de IA |
 | [Documentación de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guía de configuración y referencia de la herramienta del servidor CJA MCP |
 | [Guías de MCP de Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guías de uso detalladas para el servidor MCP de CJA |
-| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
+| [Documentación de MCP de Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guía de configuración del servidor RTCDP MCP |
 
 ## Aptitudes de agente
 
@@ -62,7 +61,7 @@ Todos los recursos clave de Adobe para trabajar con Adobe CX Enterprise Agentic 
 | [Consola de desarrollador de Adobe](https://developer.adobe.com/developer-console/docs/guides/) | Configuración, autenticación y administración de credenciales del proyecto de API |
 | [Guía de introducción para desarrolladores](https://developer.adobe.com/dep/) | Introducción a la creación de con las API de Adobe |
 
-## Configuración del cliente de IA
+## Configuración de plataforma de IA
 
 | Recurso | Qué va a encontrar |
 |---|---|
