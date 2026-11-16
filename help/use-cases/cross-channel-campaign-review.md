@@ -1,10 +1,10 @@
 ---
 title: Ejecutar una revisión de campaña en canales múltiples
 description: Obtenga una vista unificada del estado de las campañas de AJO, CJA y Real-Time CDP en los recorridos, las audiencias y el rendimiento en una sola sesión de IA.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1651'
 ht-degree: 6%
 ---
 
@@ -20,10 +20,10 @@ Una imagen completa del estado de la campaña requiere datos de varios sistemas:
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
-| Herramientas agénticas | Servidores MCP [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home) o [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) y [Real-Time CDP](../tools/mcp-servers.md) |
+| Aplicaciones de CX Enterprise | [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home) |
+| Herramientas agénticas | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) o [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) y [Real-Time CDP](../tools/mcp-servers.md) servidores MCP |
 | Público | Administradores de campañas, operaciones de marketing |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AJO, CJA y Real-Time CDP |
+| Requisito previo | Acceso a AJO, CJA y Real-Time CDP, además de Coworker, una plataforma de IA con Coworker para plataformas de IA o una plataforma de IA compatible con MCP |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **Más cosas que puedes hacer** sección sigue para una exploración adicional en la misma sesión.
 
@@ -31,11 +31,15 @@ Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. **M
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker se conecta a AJO, CJA y Real-Time CDP en un solo lugar, sin necesidad de configurar el servidor ni el cliente de IA. [Probar CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+El compañero se conecta a AJO, CJA y Real-Time CDP en un solo lugar, sin necesidad de configurar el servidor ni la plataforma de IA. [Probar con el compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
 
-Si prefiere conectar su propio cliente de IA directamente, conecte los tres servidores MCP con las pestañas de abajo. El servidor MCP de Real-Time CDP se encuentra en la versión beta pública y requiere que su organización esté incluida en la lista de permitidos.
+Si no puede o no quiere usar Coworker directamente, utilícelo desde su propia plataforma de IA en su lugar. Consulte la ficha **Colaborador para plataformas de IA**. Si esto tampoco funciona para usted, conecte su plataforma de IA directamente a los servidores MCP de AJO, CJA y Real-Time CDP con las pestañas restantes. El servidor MCP de Real-Time CDP se encuentra en la versión beta pública y requiere que su organización esté incluida en la lista de permitidos.
+
+>[!TAB Colaborador para plataformas de IA]
+
+También puede completar este tutorial con Coworker para plataformas de IA desde su propia plataforma de IA. [Configurar compañero para plataformas de IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentación de Adobe](https://experienceleague.adobe.com/es/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -70,7 +74,7 @@ Conecte los tres servidores MCP mediante el modo de desarrollador de ChatGPT (se
 
 Configuración completa: [Documentación de MCP de ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Otros clientes de IA]
+>[!TAB Otras plataformas de IA]
 
 ¿Utiliza Gemini, Microsoft Copilot, Cursor, Claude Code u otro entorno compatible con MCP? Conéctese a los tres servidores MCP mediante estos extremos:
 
@@ -80,7 +84,7 @@ Configuración completa: [Documentación de MCP de ChatGPT](https://developers.o
 | Servidor MCP de Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
 | Servidor MCP de Real-Time CDP | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
+Instrucciones de configuración completas para todas las plataformas de IA compatibles: [Conéctese a su plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ Instrucciones de configuración completas para todos los clientes admitidos: [Co
 >
 >Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a sus entornos de AJO, CJA y Real-Time CDP. La elección de una organización incorrecta es la fuente más común de errores de autenticación.
 >
->En la primera conexión, el cliente de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
+>En la primera conexión, la plataforma de IA puede pedirle que seleccione una organización de IMS o que especifique una zona protegida. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revise la solicitud y apruébela o rechace. No se realiza ninguna acción sin su confirmación.
 
@@ -169,7 +173,7 @@ Tasa de conversión combinada: 3,8%. El CTR del correo electrónico ha aumentado
 
 ## Paso 4: Sintetizar un resumen de estado de la campaña
 
-Pida a su cliente de IA que reúna la imagen en las tres fuentes y muestre todo lo que necesite atención.
+Pida a su plataforma de IA que reúna la imagen en las tres fuentes y muestre todo lo que necesite atención.
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ No se han detectado problemas críticos. Dos de los elementos anteriores merecen
 +++
 
 
-Aquí es donde el enfoque de varios servidores da resultado: el cliente de IA razona en la configuración del recorrido, el estado de la audiencia y los datos de rendimiento en una sola conversación.
+Aquí es donde el enfoque de varios servidores vale la pena: la plataforma de IA razona en la configuración del recorrido, el estado de la audiencia y los datos de rendimiento en una sola conversación.
 
 ## Paso 5: Tome medidas sobre lo que encontró
 
-El examen incluyó dos temas. Pida a su cliente de IA que le ayude a priorizar y enrutar cada uno.
+El examen incluyó dos temas. Solicite a su plataforma de IA que le ayude a priorizar y enrutar cada una de ellas.
 
 ```
 For each flag you identified, what should I do and where should I go to do it?

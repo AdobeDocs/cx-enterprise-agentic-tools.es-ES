@@ -1,14 +1,12 @@
 ---
 title: Herramientas de agente
-description: Compare servidores MCP, habilidades de agente y API para generadores y elija la herramienta original adecuada para sus flujos de trabajo empresariales de Adobe CX.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Compare servidores MCP, habilidades de agente y API para generadores y elija la herramienta agéntica adecuada para sus flujos de trabajo de Adobe CX Enterprise.
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 0%
-
+source-wordcount: '1129'
+ht-degree: 1%
 ---
-
 
 # Herramientas agénticas
 
@@ -21,7 +19,7 @@ CARDS
 
 * mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any compatible AI client to Adobe CX Enterprise data and workflows. No coding required.}
+  {description = Connect any compatible AI platform to Adobe CX Enterprise data and workflows. No coding required.}
   {cta = Explore MCP Servers}
   {image = ../assets/mcp-servers-card.png}
 
@@ -55,11 +53,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="mcp-servers.md" title="Servidores MCP">Servidores MCP</a>
                     </p>
-                    <p class="is-size-6">Conecte cualquier cliente de IA compatible a los datos y flujos de trabajo de Adobe CX Enterprise. No se requiere codificación.</p>
+                    <p class="is-size-6">Conecte cualquier plataforma de IA compatible a los datos y flujos de trabajo de Adobe CX Enterprise. No se requiere codificación.</p>
                 </div>
                 <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar servidores MCP</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -78,11 +76,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="agent-skills.md" title="Aptitudes de agente">Aptitudes de agente</a>
                     </p>
-                    <p class="is-size-6">Instrucciones de flujo de trabajo revisadas por Adobe que guían a los agentes a través de las tareas de CX Enterprise de forma coherente.</p>
+                    <p class="is-size-6">Instrucciones de flujo de trabajo revisadas por Adobe que guían a los agentes por las tareas de CX Enterprise de forma coherente.</p>
                 </div>
                 <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar las aptitudes del agente</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -105,7 +103,7 @@ CARDS
                 </div>
                 <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorar API para generadores</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -117,27 +115,27 @@ CARDS
 
 | | Servidores MCP | Aptitudes de agente | API para generadores |
 | --- | --- | --- | --- |
-| Mejor para | Usuarios de aplicaciones empresariales de CX | Usuarios y desarrolladores de aplicaciones empresariales de CX | Desarrolladores |
+| Mejor para | usuarios de aplicaciones CX Enterprise | Usuarios y desarrolladores de aplicaciones de CX Enterprise | Desarrolladores |
 | Requiere codificación | No | No | Sí |
 | Tiempo de configuración | Minutes | Minutes | Horas a días |
-| Lo que obtienes | Acceso a aplicaciones empresariales CX desde sus clientes de IA | Flujos de trabajo guiados y repetibles | Control programático completo |
+| Lo que obtienes | Acceso a aplicaciones de CX Enterprise desde sus plataformas de IA | Flujos de trabajo guiados y repetibles | Control programático completo |
 
-## ¿No estás seguro de por dónde empezar?
+## ¿No tiene claro por dónde empezar?
 
-- Para usar IA para interactuar con aplicaciones de CX Enterprise (realizar acciones, consultar datos y permitir que la IA descubra qué hacer después a través de una conversación natural), [Servidores MCP](mcp-servers.md) son el punto de partida más flexible.
-- Para que los agentes sigan de manera consistente las prácticas recomendadas de Adobe para los flujos de trabajo de CX Enterprise sin improvisar, [Agent Skills](agent-skills.md) codifican esa experiencia de dominio en instrucciones reutilizables.
-- Para crear una aplicación enfocada que optimiza o automatiza un flujo de trabajo empresarial de CX específico para sus usuarios, las [API para generadores](apis.md) le proporcionan control directo y programable sobre exactamente lo que sucede.
+- Para usar la IA para interactuar con aplicaciones de CX Enterprise (realizar acciones, consultar datos y permitir que la IA descubra qué hacer después a través de una conversación natural), [Servidores MCP](mcp-servers.md) son el punto de partida más flexible.
+- Para que los agentes sigan de manera consistente las prácticas recomendadas de Adobe para los flujos de trabajo de CX Enterprise sin improvisar, [las habilidades del agente](agent-skills.md) codifican esa experiencia del dominio en instrucciones reutilizables.
+- Para generar una aplicación enfocada que optimiza o automatiza un flujo de trabajo específico de CX Enterprise para los usuarios, las [API para generadores](apis.md) le proporcionan control directo y programable sobre lo que sucede exactamente.
 
 >[!BEGINTABS]
 
 >[!TAB Servidores MCP]
 
-Piense en los servidores MCP como un cable activo entre su cliente de IA y las aplicaciones empresariales de CX. Conéctese una vez y su IA podrá consultar campañas, extraer audiencias, comprobar el estado del recorrido y mucho más, todo en un lenguaje sencillo, sin necesidad de código.
+Piense en los servidores MCP como un cable activo entre su plataforma de IA y las aplicaciones de CX Enterprise. Comience con [Adobe CX Enterprise Coworker para plataformas de IA](mcp-servers.md#connect-to-your-ai-platform): conéctese una vez y su plataforma de IA podrá usar Adobe CX Enterprise Coworker para consultar campañas, extraer audiencias, comprobar el estado del recorrido y mucho más, todo en lenguaje sencillo, sin necesidad de código. Si no funciona, conéctese directamente a los [servidores MCP del producto](mcp-servers.md#connect-to-your-ai-platform).
 
 **Usar servidores MCP cuando:**
 
 - Desea integrar la IA directamente en sus flujos de trabajo de CX Enterprise
-- Desea que los datos de CX Enterprise se encuentren dentro del cliente de IA que ya utiliza
+- Desea que los datos de CX Enterprise estén dentro de la plataforma de IA que ya utiliza
 - Está realizando análisis exploratorios o recuperación de datos ad hoc
 - Desea obtener resultados rápidamente, sin dar vueltas a un proyecto
 
@@ -145,11 +143,11 @@ Piense en los servidores MCP como un cable activo entre su cliente de IA y las a
 
 >[!TAB Aptitudes de agente]
 
-Las habilidades de agente son conocimientos de dominio de Adobe, codificados como instrucciones que el agente puede seguir. En lugar de esperar que su agente descubra los pasos correctos, una habilidad le dice exactamente qué hacer, de forma fiable, repetida y ya ajustada para los flujos de trabajo de CX Enterprise.
+Las habilidades de agente son conocimientos de dominio de Adobe, codificados como instrucciones que el agente puede seguir. En lugar de esperar que el agente determine los pasos correctos, una habilidad le dirá exactamente qué hacer, de forma fiable, repetida y ya ajustada para los flujos de trabajo de CX Enterprise.
 
 **Usar aptitudes de agente cuando:**
 
-- Desea seguir las prácticas recomendadas de Adobe al realizar trabajo en aplicaciones de CX Enterprise a través de clientes de IA
+- Desea seguir las prácticas recomendadas de Adobe al realizar trabajo en aplicaciones de CX Enterprise a través de plataformas de IA
 - Desea que la misma tarea se realice de la misma manera cada vez
 - Está ejecutando flujos de trabajo de producción de contenido o medios repetibles
 
@@ -172,11 +170,11 @@ Las API son los componentes básicos. Proporcionan a los desarrolladores acceso 
 
 ## Usándolos juntos.
 
-Estas herramientas están diseñadas para funcionar juntas. Al combinarlos, es donde puede obtener el máximo rendimiento de Adobe AI. Las habilidades de agente pueden guiar la forma en que un cliente de IA utiliza los servidores MCP, lo que mantiene a los agentes en el camino correcto para los flujos de trabajo de CX Enterprise. Las habilidades también pueden informar de cómo y cuándo llamar a las API de, lo que agrega protecciones de prácticas recomendadas de Adobe a las automatizaciones creadas a medida. No tienes que elegir solo una.
+Estas herramientas están diseñadas para funcionar juntas. Al combinarlos, es donde puede obtener el máximo rendimiento de Adobe AI. Las habilidades del agente pueden guiar la forma en que una plataforma de IA utiliza los servidores MCP, lo que mantiene a los agentes en el camino correcto para los flujos de trabajo de CX Enterprise. Las habilidades también pueden informar de cómo y cuándo llamar a las API de, lo que agrega protecciones de prácticas recomendadas de Adobe a las automatizaciones creadas a medida. No tienes que elegir solo una.
 
 ## Herramientas agénticas en acción
 
-Consulte estas herramientas aplicadas a flujos de trabajo empresariales de CX reales.
+Consulte estas herramientas aplicadas a flujos de trabajo reales de CX Enterprise.
 
 <!--
 CARDS
@@ -220,7 +218,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Comprobar activación de audiencia</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -243,7 +241,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Probar con habilidades de agente</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -266,7 +264,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Probar con API</span>
-                
+                </a>
             </div>
         </div>
     </div>

@@ -1,14 +1,12 @@
 ---
 title: Herramientas agénticas en acción
-description: Tutoriales paso a paso que muestran las herramientas de Adobe CX Enterprise Agent aplicadas a flujos de trabajo empresariales reales.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Tutoriales paso a paso que muestran las herramientas agénticas de Adobe CX Enterprise aplicadas a flujos de trabajo empresariales reales.
+last-substantial-update: 2026-06-08
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # Herramientas agénticas en acción
 
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 ![Herramientas de agente en acción](../assets/hero-agentic-tools-in-action.png)
 
-Tutoriales paso a paso sobre los flujos de trabajo empresariales reales de Adobe CX. Cada tutorial comienza donde termina la configuración, con las herramientas conectadas y un flujo de trabajo real por completar.
+Tutoriales paso a paso sobre flujos de trabajo de Adobe CX Enterprise reales. Cada tutorial comienza donde termina la configuración, con las herramientas conectadas y un flujo de trabajo real por completar.
 
 <!--
 CARDS
@@ -48,7 +46,7 @@ CARDS
 
 * aem-cloud-manager-mcp.md
   {title = Deploy AEM changes with confidence}
-  {description = Check environment health, review pipeline history, and deploy to AEM from your AI client, without switching tools.}
+  {description = Check environment health, review pipeline history, and deploy to AEM from your AI platform, without switching tools.}
   {cta = Deploy with confidence}
   {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
@@ -73,7 +71,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Perspectivas de la campaña de Surface</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -96,7 +94,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Comprobar activación de audiencia</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -119,7 +117,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Supervise sus recorridos</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -142,7 +140,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Enviar contenido más rápido</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -165,7 +163,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Cerrar brechas de rendimiento</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -184,11 +182,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="aem-cloud-manager-mcp.md" title="Implemente los cambios de AEM con confianza">Implementar cambios de AEM con confianza</a>
                     </p>
-                    <p class="is-size-6">Compruebe el estado del entorno, revise el historial de la canalización e implemente en AEM desde su cliente de IA sin cambiar de herramienta.</p>
+                    <p class="is-size-6">Compruebe el estado del entorno, revise el historial de la canalización e implemente en AEM desde su plataforma de IA sin cambiar de herramienta.</p>
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Implementar con confianza</span>
-                
+                </a>
             </div>
         </div>
     </div>

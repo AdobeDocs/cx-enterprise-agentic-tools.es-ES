@@ -1,14 +1,12 @@
 ---
 title: Implementar en AEM as a Cloud Service con confianza
-description: Compruebe el estado del entorno, revise el historial de la canalización y almacene en déclencheur o administre implementaciones sin abandonar su cliente de IA.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Compruebe el estado del entorno, revise el historial de la canalización y déclencheur o administre implementaciones sin salir de la plataforma de IA.
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
-
+source-wordcount: '951'
+ht-degree: 3%
 ---
-
 
 # Implementar en AEM as a Cloud Service con confianza
 
@@ -16,14 +14,14 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480345/?captions=spa&learn=on&enablevpops)
 
-La confianza de la implementación proviene de saber que su entorno está en buen estado antes de realizar la push. Este tutorial muestra cómo comprobar el estado del entorno de AEM, revisar el historial de canalización y las implementaciones de déclencheur desde un cliente de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los equipos puedan moverse rápidamente sin perder visibilidad.
+La confianza de la implementación proviene de saber que su entorno está en buen estado antes de realizar la push. Este tutorial muestra cómo comprobar el estado del entorno de AEM, revisar el historial de canalización y las implementaciones de déclencheur desde una plataforma de IA mediante el servidor MCP de AEM Cloud Manager, de modo que los equipos puedan moverse rápidamente sin perder visibilidad.
 
 | Detalles del escenario | |
 | --- | --- |
-| Aplicaciones empresariales de CX | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Aplicaciones de CX Enterprise | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
 | Herramientas agénticas | [Servidor MCP de AEM Cloud Manager](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | Público | Desarrolladores, DevOps, equipos de operaciones |
-| Requisito previo | Cliente de IA compatible con MCP, acceso a AEM Cloud Manager |
+| Requisito previo | plataforma de IA compatible con MCP, acceso a AEM Cloud Manager |
 
 Cada paso muestra un mensaje representativo y un ejemplo de respuesta de IA. A continuación hay **más indicaciones para probar** sección para realizar exploraciones adicionales en la misma sesión.
 
@@ -96,7 +94,7 @@ Abra el panel **Chat de copiloto de GitHub**, cambie a **Modo de agente** y sele
 
 Configuración completa: [Documentación de servidores MCP con código VS](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB Otros clientes de IA]
+>[!TAB Otras plataformas de IA]
 
 ¿Utiliza otro entorno compatible con MCP? Conéctese al servidor MCP de Cloud Manager mediante este extremo:
 
@@ -104,15 +102,15 @@ Configuración completa: [Documentación de servidores MCP con código VS](https
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-Instrucciones de configuración completas para todos los clientes admitidos: [Conéctese a su cliente de IA](../tools/mcp-servers.md)
+Instrucciones de configuración completas para todas las plataformas de IA compatibles: [Conéctese a su plataforma de IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a su programa de AEM as a Cloud Service. Los permisos se aplican en el nivel de Cloud Manager. Su cliente de IA solo puede realizar operaciones para las que su cuenta está autorizada.
+>Inicie sesión con su Adobe ID cuando se le solicite y seleccione la organización de IMS vinculada a su programa de AEM as a Cloud Service. Los permisos se aplican en el nivel de Cloud Manager. Su plataforma de IA solo puede realizar operaciones para las que su cuenta está autorizada.
 >
->En la primera conexión, su cliente de IA puede solicitarle que confirme su organización o programa de AEM. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
+>En la primera conexión, la plataforma de IA puede pedirle que confirme su organización o programa de AEM. Una vez establecido ese contexto, el servidor MCP lo utiliza para el resto de la sesión.
 >
 >Algunas herramientas le piden su aprobación antes de ejecutarse. Revisar la acción propuesta y aprobarla o rechazarla. No se realiza ninguna acción sin su confirmación.
 
@@ -126,7 +124,7 @@ What is the status of the production environment?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el estado del entorno de producción de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![Plataforma de IA que muestra el estado del entorno de producción de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -143,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra las últimas cinco ejecuciones de canalización para la canalización de producción](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+![Plataforma de IA que muestra las últimas cinco ejecuciones de canalización para la canalización de producción](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -152,7 +150,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 ## Paso 3: Déclencheur de una canalización
 
-Inicie una canalización que se ejecute directamente desde su cliente de IA. El servidor confirma el entorno de destino y solicita la aprobación antes de iniciarse.
+Inicie una canalización que se ejecute directamente desde la plataforma de IA. El servidor confirma el entorno de destino y solicita la aprobación antes de iniciarse.
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra confirmación de déclencheur de canalización e IU de Cloud Manager que refleja la canalización en ejecución](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![Plataforma de IA que muestra confirmación de déclencheur de canalización e IU de Cloud Manager que refleja la canalización en ejecución](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
@@ -169,11 +167,11 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 >[!CAUTION]
 >
->El cliente de IA le pedirá que confirme el nombre de la canalización antes de activar una ejecución. Introduzca el nombre exacto de la canalización para continuar. Revise cuidadosamente el entorno de destino antes de confirmar, especialmente para las canalizaciones que se implementan en producción.
+>La plataforma de IA le pedirá que confirme el nombre de la canalización antes de activar una ejecución. Introduzca el nombre exacto de la canalización para continuar. Revise cuidadosamente el entorno de destino antes de confirmar, especialmente para las canalizaciones que se implementan en producción.
 
 ## Paso 4: Comprobar el estado de la canalización
 
-Después de activar una ejecución, solicite a su cliente de IA una actualización de estado sin cambiar a la interfaz de Cloud Manager.
+Después de activar una ejecución, solicite a su plataforma de IA una actualización de estado sin cambiar a la interfaz de Cloud Manager.
 
 ```
 What is the status of the triggered pipeline?
@@ -181,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++Ver una respuesta de ejemplo
 
-![Cliente de IA que muestra el estado de la ejecución de canalización desencadenada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![Plataforma de IA que muestra el estado de ejecución de la canalización desencadenada](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *Seleccionar para ampliar/reducir.*
 
